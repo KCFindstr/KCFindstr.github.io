@@ -1,0 +1,3267 @@
+﻿[
+	{
+		"top": "i",
+		"bottom": "今",
+		"index": 1
+	},
+	{
+		"top": "ma... ",
+		"bottom": "…",
+		"index": 2
+	},
+	{
+		"top": "mi",
+		"bottom": "み",
+		"index": 3
+	},
+	{
+		"top": "ra",
+		"bottom": "ら",
+		"index": 4
+	},
+	{
+		"top": "i, ",
+		"bottom": "い、",
+		"index": 5
+	},
+	{
+		"top": "ka",
+		"bottom": "変",
+		"index": 6
+	},
+	{
+		"top": "e",
+		"bottom": "え",
+		"index": 7
+	},
+	{
+		"top": "te ",
+		"bottom": "て",
+		"index": 8
+	},
+	{
+		"top": "mi",
+		"bottom": "み",
+		"index": 9
+	},
+	{
+		"top": "ta",
+		"bottom": "た",
+		"index": 10
+	},
+	{
+		"top": "ku ",
+		"bottom": "く",
+		"index": 11
+	},
+	{
+		"top": "na",
+		"bottom": "な",
+		"index": 12
+	},
+	{
+		"top": "tta ",
+		"bottom": "った",
+		"index": 13
+	},
+	{
+		"top": "yo!",
+		"bottom": "よ！",
+		"index": 14
+	},
+	{
+		"top": "da",
+		"bottom": "だ",
+		"index": 15
+	},
+	{
+		"top": "tte ",
+		"bottom": "って",
+		"index": 16
+	},
+	{
+		"top": "bo",
+		"bottom": "僕",
+		"index": 17
+	},
+	{
+		"top": "ku",
+		"bottom": " ",
+		"index": 18
+	},
+	{
+		"top": "ta",
+		"bottom": "た",
+		"index": 19
+	},
+	{
+		"top": "chi ",
+		"bottom": "ち",
+		"index": 20
+	},
+	{
+		"top": "wa ",
+		"bottom": "は",
+		"index": 21
+	},
+	{
+		"top": "ma",
+		"bottom": "ま",
+		"index": 22
+	},
+	{
+		"top": "da ",
+		"bottom": "だ",
+		"index": 23
+	},
+	{
+		"top": "yu",
+		"bottom": "夢",
+		"index": 24
+	},
+	{
+		"top": "me ",
+		"bottom": " ",
+		"index": 25
+	},
+	{
+		"top": "ni",
+		"bottom": "に",
+		"index": 26
+	},
+	{
+		"top": "(fu~",
+		"bottom": " ",
+		"index": 27
+	},
+	{
+		"top": "fu",
+		"bottom": " ",
+		"index": 28
+	},
+	{
+		"top": "fu!)",
+		"bottom": " ",
+		"index": 29
+	},
+	{
+		"top": "ki",
+		"bottom": "気",
+		"index": 30
+	},
+	{
+		"top": "dzui",
+		"bottom": "づい",
+		"index": 31
+	},
+	{
+		"top": "ta ",
+		"bottom": "た",
+		"index": 32
+	},
+	{
+		"top": "ba",
+		"bottom": "ば",
+		"index": 33
+	},
+	{
+		"top": "ka",
+		"bottom": "か",
+		"index": 34
+	},
+	{
+		"top": "ri",
+		"bottom": "り",
+		"index": 35
+	},
+	{
+		"top": "(hai)",
+		"bottom": " ",
+		"index": 36
+	},
+	{
+		"top": " x 15",
+		"bottom": " ",
+		"index": 37
+	},
+	{
+		"top": "(fu",
+		"bottom": " ",
+		"index": 38
+	},
+	{
+		"top": "fu",
+		"bottom": " ",
+		"index": 39
+	},
+	{
+		"top": "fu!)",
+		"bottom": " ",
+		"index": 40
+	},
+	{
+		"top": "ki",
+		"bottom": "きっ",
+		"index": 41
+	},
+	{
+		"top": "kka",
+		"bottom": "か",
+		"index": 42
+	},
+	{
+		"top": "ke ",
+		"bottom": "け",
+		"index": 43
+	},
+	{
+		"top": "wa ",
+		"bottom": "は",
+		"index": 44
+	},
+	{
+		"top": "na",
+		"bottom": "な",
+		"index": 45
+	},
+	{
+		"top": "n",
+		"bottom": "ん",
+		"index": 46
+	},
+	{
+		"top": "de",
+		"bottom": "で",
+		"index": 47
+	},
+	{
+		"top": "mo ",
+		"bottom": "も",
+		"index": 48
+	},
+	{
+		"top": "ii ",
+		"bottom": "いい",
+		"index": 49
+	},
+	{
+		"top": "ka",
+		"bottom": "か",
+		"index": 50
+	},
+	{
+		"top": "ra",
+		"bottom": "らい",
+		"index": 51
+	},
+	{
+		"top": "i",
+		"bottom": "っ",
+		"index": 52
+	},
+	{
+		"top": "ssho ",
+		"bottom": "しょ",
+		"index": 53
+	},
+	{
+		"top": "ni ",
+		"bottom": "に",
+		"index": 54
+	},
+	{
+		"top": "to",
+		"bottom": "と",
+		"index": 55
+	},
+	{
+		"top": "ki",
+		"bottom": "き",
+		"index": 56
+	},
+	{
+		"top": "me",
+		"bottom": "め",
+		"index": 57
+	},
+	{
+		"top": "ki ",
+		"bottom": "き",
+		"index": 58
+	},
+	{
+		"top": "o ",
+		"bottom": "を",
+		"index": 59
+	},
+	{
+		"top": "sa",
+		"bottom": "探",
+		"index": 60
+	},
+	{
+		"top": "ga",
+		"bottom": " ",
+		"index": 61
+	},
+	{
+		"top": "so",
+		"bottom": "そ",
+		"index": 62
+	},
+	{
+		"top": "u ",
+		"bottom": "う",
+		"index": 63
+	},
+	{
+		"top": "yo",
+		"bottom": "よ",
+		"index": 64
+	},
+	{
+		"top": "(wa",
+		"bottom": "（わっ",
+		"index": 65
+	},
+	{
+		"top": "sshoi! ",
+		"bottom": "しょい！",
+		"index": 66
+	},
+	{
+		"top": "to",
+		"bottom": "と",
+		"index": 67
+	},
+	{
+		"top": "ki",
+		"bottom": "き",
+		"index": 68
+	},
+	{
+		"top": "me",
+		"bottom": "め",
+		"index": 69
+	},
+	{
+		"top": "ki ",
+		"bottom": "きオー",
+		"index": 70
+	},
+	{
+		"top": "Al",
+		"bottom": " ",
+		"index": 71
+	},
+	{
+		"top": "right)",
+		"bottom": "ライ）",
+		"index": 72
+	},
+	{
+		"top": "ho",
+		"bottom": "本",
+		"index": 73
+	},
+	{
+		"top": "n",
+		"bottom": " ",
+		"index": 74
+	},
+	{
+		"top": "tou ",
+		"bottom": "当",
+		"index": 75
+	},
+	{
+		"top": "ni ",
+		"bottom": "に",
+		"index": 76
+	},
+	{
+		"top": "no",
+		"bottom": "望",
+		"index": 77
+	},
+	{
+		"top": "zo",
+		"bottom": " ",
+		"index": 78
+	},
+	{
+		"top": "mu ",
+		"bottom": "む",
+		"index": 79
+	},
+	{
+		"top": "ko",
+		"bottom": "こ",
+		"index": 80
+	},
+	{
+		"top": "to ",
+		"bottom": "と",
+		"index": 81
+	},
+	{
+		"top": "na",
+		"bottom": "な",
+		"index": 82
+	},
+	{
+		"top": "ra",
+		"bottom": "ら",
+		"index": 83
+	},
+	{
+		"top": "ka",
+		"bottom": "か",
+		"index": 84
+	},
+	{
+		"top": "na",
+		"bottom": "な",
+		"index": 85
+	},
+	{
+		"top": "un",
+		"bottom": "うん",
+		"index": 86
+	},
+	{
+		"top": "da ",
+		"bottom": "だ",
+		"index": 87
+	},
+	{
+		"top": "to ",
+		"bottom": "と",
+		"index": 88
+	},
+	{
+		"top": "shou",
+		"bottom": "証",
+		"index": 89
+	},
+	{
+		"top": "me",
+		"bottom": "明",
+		"index": 90
+	},
+	{
+		"top": "i",
+		"bottom": " ",
+		"index": 91
+	},
+	{
+		"index": 92,
+		"top": null,
+		"bottom": "*"
+	},
+	{
+		"index": 93,
+		"top": null,
+		"bottom": " "
+	},
+	{
+		"top": "shi",
+		"bottom": "し",
+		"index": 94
+	},
+	{
+		"top": "te ",
+		"bottom": "て",
+		"index": 95
+	},
+	{
+		"top": "mi",
+		"bottom": "み",
+		"index": 96
+	},
+	{
+		"top": "ru",
+		"bottom": "る",
+		"index": 97
+	},
+	{
+		"top": "n",
+		"bottom": "ん",
+		"index": 98
+	},
+	{
+		"top": "da",
+		"bottom": "だ",
+		"index": 99
+	},
+	{
+		"index": 100,
+		"top": null,
+		"bottom": "*"
+	},
+	{
+		"top": "(seno! ",
+		"bottom": null,
+		"index": 101
+	},
+	{
+		"top": "hai ",
+		"bottom": null,
+		"index": 102
+	},
+	{
+		"top": "hai ",
+		"bottom": null,
+		"index": 103
+	},
+	{
+		"top": "hai",
+		"bottom": null,
+		"index": 104
+	},
+	{
+		"top": "hai",
+		"bottom": null,
+		"index": 105
+	},
+	{
+		"top": "hai",
+		"bottom": null,
+		"index": 106
+	},
+	{
+		"top": "hai)",
+		"bottom": null,
+		"index": 107
+	},
+	{
+		"top": "chi",
+		"bottom": "ちっ",
+		"index": 108
+	},
+	{
+		"index": 109,
+		"top": null,
+		"bottom": "*"
+	},
+	{
+		"top": "ppo",
+		"bottom": "ぽ",
+		"index": 110
+	},
+	{
+		"top": "ke ",
+		"bottom": "け",
+		"index": 111
+	},
+	{
+		"top": "na ",
+		"bottom": "な",
+		"index": 112
+	},
+	{
+		"top": "ji",
+		"bottom": "自",
+		"index": 113
+	},
+	{
+		"top": "bun ",
+		"bottom": "分",
+		"index": 114
+	},
+	{
+		"top": "ga ",
+		"bottom": "が",
+		"index": 115
+	},
+	{
+		"top": "do",
+		"bottom": "ど",
+		"index": 116
+	},
+	{
+		"top": "ko ",
+		"bottom": "こ",
+		"index": 117
+	},
+	{
+		"top": "e ",
+		"bottom": "へ",
+		"index": 118
+	},
+	{
+		"top": "to",
+		"bottom": "飛",
+		"index": 119
+	},
+	{
+		"top": "bi",
+		"bottom": "び",
+		"index": 120
+	},
+	{
+		"top": "da",
+		"bottom": "出",
+		"index": 121
+	},
+	{
+		"top": "se",
+		"bottom": "せ",
+		"index": 122
+	},
+	{
+		"top": "ru ",
+		"bottom": "る",
+		"index": 123
+	},
+	{
+		"top": "ka",
+		"bottom": "か",
+		"index": 124
+	},
+	{
+		"top": "na",
+		"bottom": "な",
+		"index": 125
+	},
+	{
+		"index": 126,
+		"top": null,
+		"bottom": "*"
+	},
+	{
+		"top": "(oooh ",
+		"bottom": null,
+		"index": 127
+	},
+	{
+		"top": "hai! ",
+		"bottom": null,
+		"index": 128
+	},
+	{
+		"top": "oooh ",
+		"bottom": null,
+		"index": 129
+	},
+	{
+		"top": "hai! ",
+		"bottom": null,
+		"index": 130
+	},
+	{
+		"top": "oooh ",
+		"bottom": null,
+		"index": 131
+	},
+	{
+		"top": "hai! ",
+		"bottom": null,
+		"index": 132
+	},
+	{
+		"top": "oooh ",
+		"bottom": null,
+		"index": 133
+	},
+	{
+		"top": "hai!)",
+		"bottom": null,
+		"index": 134
+	},
+	{
+		"top": "wa",
+		"bottom": "わ",
+		"index": 135
+	},
+	{
+		"top": "ka",
+		"bottom": "か",
+		"index": 136
+	},
+	{
+		"top": "ra",
+		"bottom": "ら",
+		"index": 137
+	},
+	{
+		"top": "na",
+		"bottom": "な",
+		"index": 138
+	},
+	{
+		"top": "i ",
+		"bottom": "い",
+		"index": 139
+	},
+	{
+		"top": "wa",
+		"bottom": "わ",
+		"index": 140
+	},
+	{
+		"top": "ka",
+		"bottom": "か",
+		"index": 141
+	},
+	{
+		"top": "ra",
+		"bottom": "ら",
+		"index": 142
+	},
+	{
+		"top": "na",
+		"bottom": "な",
+		"index": 143
+	},
+	{
+		"top": "i ",
+		"bottom": "い",
+		"index": 144
+	},
+	{
+		"top": "ma",
+		"bottom": "ま",
+		"index": 145
+	},
+	{
+		"top": "ma ",
+		"bottom": "ま",
+		"index": 146
+	},
+	{
+		"top": "de",
+		"bottom": "で",
+		"index": 147
+	},
+	{
+		"top": "(nan",
+		"bottom": "（なん",
+		"index": 148
+	},
+	{
+		"top": "to",
+		"bottom": "と",
+		"index": 149
+	},
+	{
+		"top": "ka ",
+		"bottom": "か",
+		"index": 150
+	},
+	{
+		"top": "na",
+		"bottom": "な",
+		"index": 151
+	},
+	{
+		"top": "ru ",
+		"bottom": "る",
+		"index": 152
+	},
+	{
+		"top": "sa",
+		"bottom": "さ",
+		"index": 153
+	},
+	{
+		"top": "to) ",
+		"bottom": "と）",
+		"index": 154
+	},
+	{
+		"top": "Ah! ",
+		"bottom": "Ah!",
+		"index": 155
+	},
+	{
+		"top": "ha",
+		"bottom": "は",
+		"index": 156
+	},
+	{
+		"top": "ji",
+		"bottom": "じ",
+		"index": 157
+	},
+	{
+		"top": "me",
+		"bottom": "め",
+		"index": 158
+	},
+	{
+		"top": "you",
+		"bottom": "よう",
+		"index": 159
+	},
+	{
+		"top": "(fu~",
+		"bottom": " ",
+		"index": 160
+	},
+	{
+		"top": "fu",
+		"bottom": " ",
+		"index": 161
+	},
+	{
+		"top": "fu!)",
+		"bottom": " ",
+		"index": 162
+	},
+	{
+		"top": "ki",
+		"bottom": "君",
+		"index": 163
+	},
+	{
+		"top": "mi ",
+		"bottom": " ",
+		"index": 164
+	},
+	{
+		"top": "no ",
+		"bottom": "の",
+		"index": 165
+	},
+	{
+		"top": "ko",
+		"bottom": "こ",
+		"index": 166
+	},
+	{
+		"top": "ko",
+		"bottom": "こ",
+		"index": 167
+	},
+	{
+		"top": "ro ",
+		"bottom": "ろ",
+		"index": 168
+	},
+	{
+		"top": "wa ",
+		"bottom": "は",
+		"index": 169
+	},
+	{
+		"top": "ka",
+		"bottom": "輝",
+		"index": 170
+	},
+	{
+		"top": "ga",
+		"bottom": " ",
+		"index": 171
+	},
+	{
+		"top": "ya",
+		"bottom": " ",
+		"index": 172
+	},
+	{
+		"top": "i",
+		"bottom": "い",
+		"index": 173
+	},
+	{
+		"top": "te",
+		"bottom": "てい",
+		"index": 174
+	},
+	{
+		"top": "ru ",
+		"bottom": "る",
+		"index": 175
+	},
+	{
+		"top": "kai?",
+		"bottom": "かい？",
+		"index": 176
+	},
+	{
+		"top": "mu",
+		"bottom": "胸",
+		"index": 177
+	},
+	{
+		"top": "ne ",
+		"bottom": " ",
+		"index": 178
+	},
+	{
+		"top": "ni ",
+		"bottom": "に",
+		"index": 179
+	},
+	{
+		"top": "ki",
+		"bottom": "聞",
+		"index": 180
+	},
+	{
+		"top": "i",
+		"bottom": "い",
+		"index": 181
+	},
+	{
+		"top": "ta",
+		"bottom": "た",
+		"index": 182
+	},
+	{
+		"top": "ra ",
+		"bottom": "ら",
+		"index": 183
+	},
+	{
+		"top": "\"Yes!!\"",
+		"bottom": "“Yes!!”",
+		"index": 184
+	},
+	{
+		"index": 185,
+		"top": null,
+		"bottom": " "
+	},
+	{
+		"top": "to ",
+		"bottom": "と",
+		"index": 186
+	},
+	{
+		"top": "ko",
+		"bottom": "答",
+		"index": 187
+	},
+	{
+		"top": "ta",
+		"bottom": " ",
+		"index": 188
+	},
+	{
+		"top": "e",
+		"bottom": "え",
+		"index": 189
+	},
+	{
+		"top": "ru ",
+		"bottom": "る",
+		"index": 190
+	},
+	{
+		"top": "sa",
+		"bottom": "さ",
+		"index": 191
+	},
+	{
+		"top": "ko",
+		"bottom": "こ",
+		"index": 192
+	},
+	{
+		"top": "no ",
+		"bottom": "の",
+		"index": 193
+	},
+	{
+		"top": "de",
+		"bottom": "出会",
+		"index": 194
+	},
+	{
+		"top": "a",
+		"bottom": " ",
+		"index": 195
+	},
+	{
+		"top": "i ",
+		"bottom": "い",
+		"index": 196
+	},
+	{
+		"top": "ga ",
+		"bottom": "が",
+		"index": 197
+	},
+	{
+		"top": "mi",
+		"bottom": "み",
+		"index": 198
+	},
+	{
+		"top": "n",
+		"bottom": "ん",
+		"index": 199
+	},
+	{
+		"top": "na ",
+		"bottom": "な",
+		"index": 200
+	},
+	{
+		"top": "o ",
+		"bottom": "を",
+		"index": 201
+	},
+	{
+		"top": "ka",
+		"bottom": "変",
+		"index": 202
+	},
+	{
+		"top": "e",
+		"bottom": "え",
+		"index": 203
+	},
+	{
+		"top": "ru ",
+		"bottom": "る",
+		"index": 204
+	},
+	{
+		"top": "ka",
+		"bottom": "か",
+		"index": 205
+	},
+	{
+		"top": "na",
+		"bottom": "な",
+		"index": 206
+	},
+	{
+		"top": "kyou ",
+		"bottom": "今日",
+		"index": 207
+	},
+	{
+		"top": "mo ",
+		"bottom": "も",
+		"index": 208
+	},
+	{
+		"top": "ta",
+		"bottom": "太",
+		"index": 209
+	},
+	{
+		"top": "i",
+		"bottom": " ",
+		"index": 210
+	},
+	{
+		"top": "you ",
+		"bottom": "陽",
+		"index": 211
+	},
+	{
+		"top": "wa ",
+		"bottom": "は",
+		"index": 212
+	},
+	{
+		"top": "te",
+		"bottom": "照",
+		"index": 213
+	},
+	{
+		"top": "ra",
+		"bottom": "ら",
+		"index": 214
+	},
+	{
+		"top": "shi",
+		"bottom": "し",
+		"index": 215
+	},
+	{
+		"top": "te",
+		"bottom": "て",
+		"index": 216
+	},
+	{
+		"top": "ru",
+		"bottom": "る",
+		"index": 217
+	},
+	{
+		"top": "(fu~",
+		"bottom": " ",
+		"index": 218
+	},
+	{
+		"top": "fu",
+		"bottom": " ",
+		"index": 219
+	},
+	{
+		"top": "fu!)",
+		"bottom": " ",
+		"index": 220
+	},
+	{
+		"top": "bo",
+		"bottom": "僕",
+		"index": 221
+	},
+	{
+		"top": "ku",
+		"bottom": " ",
+		"index": 222
+	},
+	{
+		"top": "ra ",
+		"bottom": "ら",
+		"index": 223
+	},
+	{
+		"top": "no ",
+		"bottom": "の",
+		"index": 224
+	},
+	{
+		"top": "yu",
+		"bottom": "夢",
+		"index": 225
+	},
+	{
+		"top": "me",
+		"bottom": " ",
+		"index": 226
+	},
+	{
+		"top": "(Oh ",
+		"bottom": "（Oh",
+		"index": 227
+	},
+	{
+		"top": "yes, ",
+		"bottom": "yes,",
+		"index": 228
+	},
+	{
+		"top": "Do",
+		"bottom": "Do",
+		"index": 229
+	},
+	{
+		"top": "ki-",
+		"bottom": "ki-",
+		"index": 230
+	},
+	{
+		"top": "Do",
+		"bottom": "Do",
+		"index": 231
+	},
+	{
+		"top": "ki ",
+		"bottom": "ki",
+		"index": 232
+	},
+	{
+		"top": "Sun",
+		"bottom": "Sun",
+		"index": 233
+	},
+	{
+		"top": "shine)",
+		"bottom": "shine",
+		"index": 234
+	},
+	{
+		"top": "(Oh ",
+		"bottom": "Oh",
+		"index": 235
+	},
+	{
+		"top": "yes, ",
+		"bottom": "yes,",
+		"index": 236
+	},
+	{
+		"top": "Do",
+		"bottom": "Do",
+		"index": 237
+	},
+	{
+		"top": "ki-",
+		"bottom": "ki-",
+		"index": 238
+	},
+	{
+		"top": "Do",
+		"bottom": "Do",
+		"index": 239
+	},
+	{
+		"top": "ki ",
+		"bottom": "ki",
+		"index": 240
+	},
+	{
+		"top": "Sun",
+		"bottom": "Sun",
+		"index": 241
+	},
+	{
+		"top": "shine)",
+		"bottom": "shine）",
+		"index": 242
+	},
+	{
+		"top": "(fu",
+		"bottom": " ",
+		"index": 243
+	},
+	{
+		"top": "fu",
+		"bottom": " ",
+		"index": 244
+	},
+	{
+		"top": "fu!)",
+		"bottom": " ",
+		"index": 245
+	},
+	{
+		"top": "tai",
+		"bottom": "退",
+		"index": 246
+	},
+	{
+		"top": "ku",
+		"bottom": " ",
+		"index": 247
+	},
+	{
+		"top": "tsu ",
+		"bottom": "屈",
+		"index": 248
+	},
+	{
+		"top": "ga ",
+		"bottom": "が",
+		"index": 249
+	},
+	{
+		"top": "ni",
+		"bottom": "苦",
+		"index": 250
+	},
+	{
+		"top": "ga",
+		"bottom": " ",
+		"index": 251
+	},
+	{
+		"top": "te ",
+		"bottom": "手",
+		"index": 252
+	},
+	{
+		"top": "de ",
+		"bottom": "で",
+		"index": 253
+	},
+	{
+		"top": "ii ",
+		"bottom": "いい",
+		"index": 254
+	},
+	{
+		"top": "no ",
+		"bottom": "の",
+		"index": 255
+	},
+	{
+		"top": "sa",
+		"bottom": "さい",
+		"index": 256
+	},
+	{
+		"top": "i",
+		"bottom": "っ",
+		"index": 257
+	},
+	{
+		"top": "ssho ",
+		"bottom": "しょ",
+		"index": 258
+	},
+	{
+		"top": "ni ",
+		"bottom": "に",
+		"index": 259
+	},
+	{
+		"top": "ze",
+		"bottom": "全",
+		"index": 260
+	},
+	{
+		"top": "n",
+		"bottom": " ",
+		"index": 261
+	},
+	{
+		"top": "ryo",
+		"bottom": "力",
+		"index": 262
+	},
+	{
+		"top": "ku ",
+		"bottom": "　",
+		"index": 263
+	},
+	{
+		"top": "de ",
+		"bottom": "で",
+		"index": 264
+	},
+	{
+		"top": "a",
+		"bottom": " ",
+		"index": 265
+	},
+	{
+		"top": "so",
+		"bottom": "遊",
+		"index": 266
+	},
+	{
+		"top": "bou ",
+		"bottom": "ぼう",
+		"index": 267
+	},
+	{
+		"top": "yo",
+		"bottom": "よ",
+		"index": 268
+	},
+	{
+		"top": "(ga",
+		"bottom": "（が",
+		"index": 269
+	},
+	{
+		"top": "tten! ",
+		"bottom": "ってん！",
+		"index": 270
+	},
+	{
+		"top": "zen",
+		"bottom": "ぜん",
+		"index": 271
+	},
+	{
+		"top": "ryo",
+		"bottom": "りょ",
+		"index": 272
+	},
+	{
+		"top": "ku ",
+		"bottom": "くオー",
+		"index": 273
+	},
+	{
+		"top": "Al",
+		"bottom": " ",
+		"index": 274
+	},
+	{
+		"top": "right)",
+		"bottom": "ライ）",
+		"index": 275
+	},
+	{
+		"top": "to",
+		"bottom": "と",
+		"index": 276
+	},
+	{
+		"top": "ki",
+		"bottom": "き",
+		"index": 277
+	},
+	{
+		"top": "do",
+		"bottom": "ど",
+		"index": 278
+	},
+	{
+		"top": "ki ",
+		"bottom": "き",
+		"index": 279
+	},
+	{
+		"top": "ma",
+		"bottom": "迷",
+		"index": 280
+	},
+	{
+		"top": "yo",
+		"bottom": " ",
+		"index": 281
+	},
+	{
+		"top": "i ",
+		"bottom": "い",
+		"index": 282
+	},
+	{
+		"top": "na",
+		"bottom": "な",
+		"index": 283
+	},
+	{
+		"top": "ga",
+		"bottom": "が",
+		"index": 284
+	},
+	{
+		"top": "ra ",
+		"bottom": "ら",
+		"index": 285
+	},
+	{
+		"top": "mo",
+		"bottom": "もい",
+		"index": 286
+	},
+	{
+		"top": "i",
+		"bottom": "っ",
+		"index": 287
+	},
+	{
+		"top": "sshou",
+		"bottom": "しょう",
+		"index": 288
+	},
+	{
+		"top": "ke",
+		"bottom": "け",
+		"index": 289
+	},
+	{
+		"top": "n",
+		"bottom": "ん",
+		"index": 290
+	},
+	{
+		"top": "mei ",
+		"bottom": "めい",
+		"index": 291
+	},
+	{
+		"top": "mo",
+		"bottom": "目",
+		"index": 292
+	},
+	{
+		"top": "ku",
+		"bottom": " ",
+		"index": 293
+	},
+	{
+		"top": "hyou",
+		"bottom": "標",
+		"index": 294
+	},
+	{
+		"index": 295,
+		"top": null,
+		"bottom": "*"
+	},
+	{
+		"index": 296,
+		"top": null,
+		"bottom": " "
+	},
+	{
+		"top": "e ",
+		"bottom": "へ",
+		"index": 297
+	},
+	{
+		"top": "to ",
+		"bottom": "と",
+		"index": 298
+	},
+	{
+		"top": "Da",
+		"bottom": "ダ",
+		"index": 299
+	},
+	{
+		"top": "sshu ",
+		"bottom": "ッシュ",
+		"index": 300
+	},
+	{
+		"top": "da",
+		"bottom": "だ",
+		"index": 301
+	},
+	{
+		"index": 302,
+		"top": null,
+		"bottom": "*"
+	},
+	{
+		"top": "(seno! ",
+		"bottom": null,
+		"index": 303
+	},
+	{
+		"top": "hai ",
+		"bottom": null,
+		"index": 304
+	},
+	{
+		"top": "hai ",
+		"bottom": null,
+		"index": 305
+	},
+	{
+		"top": "hai",
+		"bottom": null,
+		"index": 306
+	},
+	{
+		"top": "hai",
+		"bottom": null,
+		"index": 307
+	},
+	{
+		"top": "hai",
+		"bottom": null,
+		"index": 308
+	},
+	{
+		"top": "hai)",
+		"bottom": null,
+		"index": 309
+	},
+	{
+		"top": "u",
+		"bottom": "う",
+		"index": 310
+	},
+	{
+		"index": 311,
+		"top": null,
+		"bottom": "*"
+	},
+	{
+		"top": "ma",
+		"bottom": "ま",
+		"index": 312
+	},
+	{
+		"top": "ku ",
+		"bottom": "く",
+		"index": 313
+	},
+	{
+		"top": "i",
+		"bottom": "い",
+		"index": 314
+	},
+	{
+		"top": "ka",
+		"bottom": "か",
+		"index": 315
+	},
+	{
+		"top": "nai ",
+		"bottom": "ない",
+		"index": 316
+	},
+	{
+		"top": "tte ",
+		"bottom": "って",
+		"index": 317
+	},
+	{
+		"top": "a",
+		"bottom": "あ",
+		"index": 318
+	},
+	{
+		"top": "ki",
+		"bottom": "き",
+		"index": 319
+	},
+	{
+		"top": "ra",
+		"bottom": "ら",
+		"index": 320
+	},
+	{
+		"top": "me",
+		"bottom": "め",
+		"index": 321
+	},
+	{
+		"top": "ta",
+		"bottom": "た",
+		"index": 322
+	},
+	{
+		"top": "ra",
+		"bottom": "ら",
+		"index": 323
+	},
+	{
+		"index": 324,
+		"top": null,
+		"bottom": "*"
+	},
+	{
+		"top": "(oooh ",
+		"bottom": null,
+		"index": 325
+	},
+	{
+		"top": "hai! ",
+		"bottom": null,
+		"index": 326
+	},
+	{
+		"top": "oooh ",
+		"bottom": null,
+		"index": 327
+	},
+	{
+		"top": "hai! ",
+		"bottom": null,
+		"index": 328
+	},
+	{
+		"top": "oooh ",
+		"bottom": null,
+		"index": 329
+	},
+	{
+		"top": "hai! ",
+		"bottom": null,
+		"index": 330
+	},
+	{
+		"top": "oooh ",
+		"bottom": null,
+		"index": 331
+	},
+	{
+		"top": "hai!)",
+		"bottom": null,
+		"index": 332
+	},
+	{
+		"top": "ki",
+		"bottom": "き",
+		"index": 333
+	},
+	{
+		"top": "tto ",
+		"bottom": "っと",
+		"index": 334
+	},
+	{
+		"top": "a",
+		"bottom": " ",
+		"index": 335
+	},
+	{
+		"top": "to ",
+		"bottom": "後",
+		"index": 336
+	},
+	{
+		"top": "ka",
+		"bottom": "か",
+		"index": 337
+	},
+	{
+		"top": "ra ",
+		"bottom": "ら",
+		"index": 338
+	},
+	{
+		"top": "ku",
+		"bottom": "悔",
+		"index": 339
+	},
+	{
+		"top": "ya",
+		"bottom": " ",
+		"index": 340
+	},
+	{
+		"top": "shi",
+		"bottom": "し",
+		"index": 341
+	},
+	{
+		"top": "i ",
+		"bottom": "い",
+		"index": 342
+	},
+	{
+		"top": "yo ",
+		"bottom": "よ",
+		"index": 343
+	},
+	{
+		"top": "(...da ",
+		"bottom": "（…だ",
+		"index": 344
+	},
+	{
+		"top": "ne)",
+		"bottom": "ねっ）",
+		"index": 345
+	},
+	{
+		"top": "da",
+		"bottom": "だ",
+		"index": 346
+	},
+	{
+		"top": "ka",
+		"bottom": "か",
+		"index": 347
+	},
+	{
+		"top": "ra ",
+		"bottom": "ら",
+		"index": 348
+	},
+	{
+		"top": "mu",
+		"bottom": "無",
+		"index": 349
+	},
+	{
+		"top": "cha ",
+		"bottom": "茶",
+		"index": 350
+	},
+	{
+		"top": "da",
+		"bottom": "だ",
+		"index": 351
+	},
+	{
+		"top": "tte ",
+		"bottom": "って",
+		"index": 352
+	},
+	{
+		"top": "ya",
+		"bottom": "や",
+		"index": 353
+	},
+	{
+		"top": "tte",
+		"bottom": "って",
+		"index": 354
+	},
+	{
+		"top": "mi",
+		"bottom": "み",
+		"index": 355
+	},
+	{
+		"top": "tai ",
+		"bottom": "たい",
+		"index": 356
+	},
+	{
+		"top": "yo ",
+		"bottom": "よ",
+		"index": 357
+	},
+	{
+		"top": "so",
+		"bottom": "そ",
+		"index": 358
+	},
+	{
+		"top": "no ",
+		"bottom": "の",
+		"index": 359
+	},
+	{
+		"top": "sa",
+		"bottom": "先",
+		"index": 360
+	},
+	{
+		"top": "ki ",
+		"bottom": " ",
+		"index": 361
+	},
+	{
+		"top": "wa",
+		"bottom": "は",
+		"index": 362
+	},
+	{
+		"top": "wa",
+		"bottom": "わ",
+		"index": 363
+	},
+	{
+		"top": "ka",
+		"bottom": "か",
+		"index": 364
+	},
+	{
+		"top": "ra",
+		"bottom": "ら",
+		"index": 365
+	},
+	{
+		"top": "na",
+		"bottom": "な",
+		"index": 366
+	},
+	{
+		"top": "i ",
+		"bottom": "い",
+		"index": 367
+	},
+	{
+		"top": "wa",
+		"bottom": "わ",
+		"index": 368
+	},
+	{
+		"top": "ka",
+		"bottom": "か",
+		"index": 369
+	},
+	{
+		"top": "ra",
+		"bottom": "ら",
+		"index": 370
+	},
+	{
+		"top": "na",
+		"bottom": "な",
+		"index": 371
+	},
+	{
+		"top": "i ",
+		"bottom": "い",
+		"index": 372
+	},
+	{
+		"top": "de",
+		"bottom": "で",
+		"index": 373
+	},
+	{
+		"top": "mo ",
+		"bottom": "も",
+		"index": 374
+	},
+	{
+		"top": "ne ",
+		"bottom": "ね",
+		"index": 375
+	},
+	{
+		"top": "o",
+		"bottom": "お",
+		"index": 376
+	},
+	{
+		"top": "mo",
+		"bottom": "も",
+		"index": 377
+	},
+	{
+		"top": "shi",
+		"bottom": "し",
+		"index": 378
+	},
+	{
+		"top": "ro",
+		"bottom": "ろ",
+		"index": 379
+	},
+	{
+		"top": "sou",
+		"bottom": "そう",
+		"index": 380
+	},
+	{
+		"top": "(nan",
+		"bottom": "（なん",
+		"index": 381
+	},
+	{
+		"top": "to",
+		"bottom": "と",
+		"index": 382
+	},
+	{
+		"top": "ka ",
+		"bottom": "か",
+		"index": 383
+	},
+	{
+		"top": "na",
+		"bottom": "な",
+		"index": 384
+	},
+	{
+		"top": "ru ",
+		"bottom": "る",
+		"index": 385
+	},
+	{
+		"top": "ka",
+		"bottom": "か",
+		"index": 386
+	},
+	{
+		"top": "mo)",
+		"bottom": "も）",
+		"index": 387
+	},
+	{
+		"top": "saa, ",
+		"bottom": "さあ、",
+		"index": 388
+	},
+	{
+		"top": "oi",
+		"bottom": "おい",
+		"index": 389
+	},
+	{
+		"top": "de!",
+		"bottom": "で！",
+		"index": 390
+	},
+	{
+		"top": "ki",
+		"bottom": "君",
+		"index": 391
+	},
+	{
+		"top": "mi ",
+		"bottom": " ",
+		"index": 392
+	},
+	{
+		"top": "wa ",
+		"bottom": "は",
+		"index": 393
+	},
+	{
+		"top": "na",
+		"bottom": "な",
+		"index": 394
+	},
+	{
+		"top": "n",
+		"bottom": "ん",
+		"index": 395
+	},
+	{
+		"top": "do",
+		"bottom": "ど",
+		"index": 396
+	},
+	{
+		"top": "mo ",
+		"bottom": "も",
+		"index": 397
+	},
+	{
+		"top": "ta",
+		"bottom": "立",
+		"index": 398
+	},
+	{
+		"top": "chi",
+		"bottom": "ち",
+		"index": 399
+	},
+	{
+		"top": "a",
+		"bottom": "上",
+		"index": 400
+	},
+	{
+		"top": "ga",
+		"bottom": "が",
+		"index": 401
+	},
+	{
+		"top": "re",
+		"bottom": "れ",
+		"index": 402
+	},
+	{
+		"top": "ru ",
+		"bottom": "る",
+		"index": 403
+	},
+	{
+		"top": "kai?",
+		"bottom": "かい？",
+		"index": 404
+	},
+	{
+		"top": "mu",
+		"bottom": "胸",
+		"index": 405
+	},
+	{
+		"top": "ne ",
+		"bottom": " ",
+		"index": 406
+	},
+	{
+		"top": "ni ",
+		"bottom": "に",
+		"index": 407
+	},
+	{
+		"top": "te ",
+		"bottom": "手",
+		"index": 408
+	},
+	{
+		"top": "o ",
+		"bottom": "を",
+		"index": 409
+	},
+	{
+		"top": "a",
+		"bottom": "あ",
+		"index": 410
+	},
+	{
+		"top": "te ",
+		"bottom": "て",
+		"index": 411
+	},
+	{
+		"top": "\"Yes!!\"",
+		"bottom": "“Yes!!”",
+		"index": 412
+	},
+	{
+		"index": 413,
+		"top": null,
+		"bottom": " "
+	},
+	{
+		"top": "to ",
+		"bottom": "と",
+		"index": 414
+	},
+	{
+		"top": "wa",
+		"bottom": "笑",
+		"index": 415
+	},
+	{
+		"top": "ra",
+		"bottom": " ",
+		"index": 416
+	},
+	{
+		"top": "un",
+		"bottom": "うん",
+		"index": 417
+	},
+	{
+		"top": "da ",
+		"bottom": "だ",
+		"index": 418
+	},
+	{
+		"top": "yo",
+		"bottom": "よ",
+		"index": 419
+	},
+	{
+		"top": "ma",
+		"bottom": "ま",
+		"index": 420
+	},
+	{
+		"top": "da ",
+		"bottom": "だ",
+		"index": 421
+	},
+	{
+		"top": "de",
+		"bottom": "出会",
+		"index": 422
+	},
+	{
+		"top": "a",
+		"bottom": " ",
+		"index": 423
+	},
+	{
+		"top": "i ",
+		"bottom": "い",
+		"index": 424
+	},
+	{
+		"top": "ni ",
+		"bottom": "に",
+		"index": 425
+	},
+	{
+		"top": "do",
+		"bottom": "ど",
+		"index": 426
+	},
+	{
+		"top": "n",
+		"bottom": "ん",
+		"index": 427
+	},
+	{
+		"top": "na ",
+		"bottom": "な",
+		"index": 428
+	},
+	{
+		"top": "i",
+		"bottom": "意",
+		"index": 429
+	},
+	{
+		"top": "mi ",
+		"bottom": "味",
+		"index": 430
+	},
+	{
+		"top": "ga ",
+		"bottom": "が",
+		"index": 431
+	},
+	{
+		"top": "a",
+		"bottom": "あ",
+		"index": 432
+	},
+	{
+		"top": "ru ",
+		"bottom": "る",
+		"index": 433
+	},
+	{
+		"top": "ka",
+		"bottom": "か",
+		"index": 434
+	},
+	{
+		"top": "shi",
+		"bottom": "知",
+		"index": 435
+	},
+	{
+		"top": "ra",
+		"bottom": "ら",
+		"index": 436
+	},
+	{
+		"top": "na",
+		"bottom": "な",
+		"index": 437
+	},
+	{
+		"top": "i ",
+		"bottom": "い",
+		"index": 438
+	},
+	{
+		"top": "ke",
+		"bottom": "け",
+		"index": 439
+	},
+	{
+		"top": "re",
+		"bottom": "れ",
+		"index": 440
+	},
+	{
+		"top": "do ",
+		"bottom": "ど",
+		"index": 441
+	},
+	{
+		"top": "ma",
+		"bottom": "ま",
+		"index": 442
+	},
+	{
+		"top": "bu",
+		"bottom": "ぶ",
+		"index": 443
+	},
+	{
+		"top": "shi",
+		"bottom": "し",
+		"index": 444
+	},
+	{
+		"top": "i ",
+		"bottom": "い",
+		"index": 445
+	},
+	{
+		"top": "ne",
+		"bottom": "ね",
+		"index": 446
+	},
+	{
+		"top": "(fu~",
+		"bottom": " ",
+		"index": 447
+	},
+	{
+		"top": "fu",
+		"bottom": " ",
+		"index": 448
+	},
+	{
+		"top": "fu!)",
+		"bottom": " ",
+		"index": 449
+	},
+	{
+		"top": "bo",
+		"bottom": "僕",
+		"index": 450
+	},
+	{
+		"top": "ku",
+		"bottom": " ",
+		"index": 451
+	},
+	{
+		"top": "ra ",
+		"bottom": "ら",
+		"index": 452
+	},
+	{
+		"top": "no ",
+		"bottom": "の",
+		"index": 453
+	},
+	{
+		"top": "yu",
+		"bottom": "夢",
+		"index": 454
+	},
+	{
+		"top": "me",
+		"bottom": "　",
+		"index": 455
+	},
+	{
+		"top": "me",
+		"bottom": "め",
+		"index": 456
+	},
+	{
+		"top": "za",
+		"bottom": "ざ",
+		"index": 457
+	},
+	{
+		"top": "me",
+		"bottom": "め",
+		"index": 458
+	},
+	{
+		"top": "tan",
+		"bottom": "たん",
+		"index": 459
+	},
+	{
+		"top": "da ",
+		"bottom": "だ",
+		"index": 460
+	},
+	{
+		"top": "yo",
+		"bottom": "よ",
+		"index": 461
+	},
+	{
+		"top": "Yeah!",
+		"bottom": " ",
+		"index": 462
+	},
+	{
+		"top": "(hai)",
+		"bottom": " ",
+		"index": 463
+	},
+	{
+		"top": " x 12",
+		"bottom": " ",
+		"index": 464
+	},
+	{
+		"top": "(Oh ",
+		"bottom": "（Oh",
+		"index": 465
+	},
+	{
+		"top": "yes, ",
+		"bottom": "yes,",
+		"index": 466
+	},
+	{
+		"top": "Do",
+		"bottom": "Do",
+		"index": 467
+	},
+	{
+		"top": "ki-",
+		"bottom": "ki-",
+		"index": 468
+	},
+	{
+		"top": "Do",
+		"bottom": "Do",
+		"index": 469
+	},
+	{
+		"top": "ki ",
+		"bottom": "ki",
+		"index": 470
+	},
+	{
+		"top": "Sun",
+		"bottom": "Sun",
+		"index": 471
+	},
+	{
+		"top": "shine)",
+		"bottom": "shine",
+		"index": 472
+	},
+	{
+		"top": "(Oh ",
+		"bottom": "Oh",
+		"index": 473
+	},
+	{
+		"top": "yes, ",
+		"bottom": "yes,",
+		"index": 474
+	},
+	{
+		"top": "Do",
+		"bottom": "Do",
+		"index": 475
+	},
+	{
+		"top": "ki-",
+		"bottom": "ki-",
+		"index": 476
+	},
+	{
+		"top": "Do",
+		"bottom": "Do",
+		"index": 477
+	},
+	{
+		"top": "ki ",
+		"bottom": "ki",
+		"index": 478
+	},
+	{
+		"top": "Sun",
+		"bottom": "Sun",
+		"index": 479
+	},
+	{
+		"top": "shine)",
+		"bottom": "shine）",
+		"index": 480
+	},
+	{
+		"top": "ki",
+		"bottom": "君",
+		"index": 481
+	},
+	{
+		"top": "mi ",
+		"bottom": " ",
+		"index": 482
+	},
+	{
+		"top": "no ",
+		"bottom": "の",
+		"index": 483
+	},
+	{
+		"top": "ko",
+		"bottom": "こ",
+		"index": 484
+	},
+	{
+		"top": "ko",
+		"bottom": "こ",
+		"index": 485
+	},
+	{
+		"top": "ro... ",
+		"bottom": "ろ…",
+		"index": 486
+	},
+	{
+		"top": "ka",
+		"bottom": "輝",
+		"index": 487
+	},
+	{
+		"top": "ga",
+		"bottom": " ",
+		"index": 488
+	},
+	{
+		"top": "ya",
+		"bottom": " ",
+		"index": 489
+	},
+	{
+		"top": "i",
+		"bottom": "い",
+		"index": 490
+	},
+	{
+		"top": "te",
+		"bottom": "てい",
+		"index": 491
+	},
+	{
+		"top": "ru ",
+		"bottom": "る",
+		"index": 492
+	},
+	{
+		"top": "kai?",
+		"bottom": "かい？",
+		"index": 493
+	},
+	{
+		"top": "mu",
+		"bottom": "胸",
+		"index": 494
+	},
+	{
+		"top": "ne ",
+		"bottom": " ",
+		"index": 495
+	},
+	{
+		"top": "ni ",
+		"bottom": "に",
+		"index": 496
+	},
+	{
+		"top": "ki",
+		"bottom": "聞",
+		"index": 497
+	},
+	{
+		"top": "i",
+		"bottom": "い",
+		"index": 498
+	},
+	{
+		"top": "ta",
+		"bottom": "た",
+		"index": 499
+	},
+	{
+		"top": "ra ",
+		"bottom": "ら",
+		"index": 500
+	},
+	{
+		"top": "\"Yes!!\"",
+		"bottom": "“Yes!!”",
+		"index": 501
+	},
+	{
+		"index": 502,
+		"top": null,
+		"bottom": " "
+	},
+	{
+		"top": "to ",
+		"bottom": "と",
+		"index": 503
+	},
+	{
+		"top": "ko",
+		"bottom": "答",
+		"index": 504
+	},
+	{
+		"top": "ta",
+		"bottom": " ",
+		"index": 505
+	},
+	{
+		"top": "e",
+		"bottom": "え",
+		"index": 506
+	},
+	{
+		"top": "ru ",
+		"bottom": "る",
+		"index": 507
+	},
+	{
+		"top": "sa",
+		"bottom": "さ",
+		"index": 508
+	},
+	{
+		"top": "ko",
+		"bottom": "こ",
+		"index": 509
+	},
+	{
+		"top": "no ",
+		"bottom": "の",
+		"index": 510
+	},
+	{
+		"top": "de",
+		"bottom": "出会",
+		"index": 511
+	},
+	{
+		"top": "a",
+		"bottom": " ",
+		"index": 512
+	},
+	{
+		"top": "i ",
+		"bottom": "い",
+		"index": 513
+	},
+	{
+		"top": "ga ",
+		"bottom": "が",
+		"index": 514
+	},
+	{
+		"top": "mi",
+		"bottom": "み",
+		"index": 515
+	},
+	{
+		"top": "n",
+		"bottom": "ん",
+		"index": 516
+	},
+	{
+		"top": "na ",
+		"bottom": "な",
+		"index": 517
+	},
+	{
+		"top": "o ",
+		"bottom": "を",
+		"index": 518
+	},
+	{
+		"top": "ka",
+		"bottom": "変",
+		"index": 519
+	},
+	{
+		"top": "e",
+		"bottom": "え",
+		"index": 520
+	},
+	{
+		"top": "ru",
+		"bottom": "る",
+		"index": 521
+	},
+	{
+		"top": "kyo",
+		"bottom": "今日",
+		"index": 522
+	},
+	{
+		"top": "u ",
+		"bottom": " ",
+		"index": 523
+	},
+	{
+		"top": "mo ",
+		"bottom": "も",
+		"index": 524
+	},
+	{
+		"top": "ta",
+		"bottom": "太",
+		"index": 525
+	},
+	{
+		"top": "i",
+		"bottom": " ",
+		"index": 526
+	},
+	{
+		"top": "you ",
+		"bottom": "陽",
+		"index": 527
+	},
+	{
+		"top": "ni ",
+		"bottom": "に",
+		"index": 528
+	},
+	{
+		"top": "te",
+		"bottom": "照",
+		"index": 529
+	},
+	{
+		"top": "ra",
+		"bottom": "ら",
+		"index": 530
+	},
+	{
+		"top": "sa",
+		"bottom": "さ",
+		"index": 531
+	},
+	{
+		"top": "re",
+		"bottom": "れ",
+		"index": 532
+	},
+	{
+		"top": "te",
+		"bottom": "て",
+		"index": 533
+	},
+	{
+		"top": "ru ",
+		"bottom": "る",
+		"index": 534
+	},
+	{
+		"top": "yo",
+		"bottom": "よ",
+		"index": 535
+	},
+	{
+		"top": "nan",
+		"bottom": "なん",
+		"index": 536
+	},
+	{
+		"top": "do",
+		"bottom": "ど",
+		"index": 537
+	},
+	{
+		"top": "mo ",
+		"bottom": "も",
+		"index": 538
+	},
+	{
+		"top": "nan",
+		"bottom": "なん",
+		"index": 539
+	},
+	{
+		"top": "do",
+		"bottom": "ど",
+		"index": 540
+	},
+	{
+		"top": "mo ",
+		"bottom": "も",
+		"index": 541
+	},
+	{
+		"top": "ta",
+		"bottom": "立",
+		"index": 542
+	},
+	{
+		"top": "chi",
+		"bottom": "ち",
+		"index": 543
+	},
+	{
+		"top": "a",
+		"bottom": "上",
+		"index": 544
+	},
+	{
+		"top": "ga",
+		"bottom": "が",
+		"index": 545
+	},
+	{
+		"top": "re",
+		"bottom": "れ",
+		"index": 546
+	},
+	{
+		"top": "ru ",
+		"bottom": "る",
+		"index": 547
+	},
+	{
+		"top": "kai?",
+		"bottom": "かい？",
+		"index": 548
+	},
+	{
+		"top": "mu",
+		"bottom": "胸",
+		"index": 549
+	},
+	{
+		"top": "ne ",
+		"bottom": " ",
+		"index": 550
+	},
+	{
+		"top": "ni ",
+		"bottom": "に",
+		"index": 551
+	},
+	{
+		"top": "te ",
+		"bottom": "手",
+		"index": 552
+	},
+	{
+		"top": "o ",
+		"bottom": "を",
+		"index": 553
+	},
+	{
+		"top": "a",
+		"bottom": "あ",
+		"index": 554
+	},
+	{
+		"top": "te ",
+		"bottom": "て",
+		"index": 555
+	},
+	{
+		"top": "\"Yes!!\"",
+		"bottom": "“Yes!!”",
+		"index": 556
+	},
+	{
+		"index": 557,
+		"top": null,
+		"bottom": " "
+	},
+	{
+		"top": "to ",
+		"bottom": "と",
+		"index": 558
+	},
+	{
+		"top": "wa",
+		"bottom": "笑",
+		"index": 559
+	},
+	{
+		"top": "ra",
+		"bottom": " ",
+		"index": 560
+	},
+	{
+		"top": "un",
+		"bottom": "うん",
+		"index": 561
+	},
+	{
+		"top": "da ",
+		"bottom": "だ",
+		"index": 562
+	},
+	{
+		"top": "yo",
+		"bottom": "よ",
+		"index": 563
+	},
+	{
+		"top": "ma",
+		"bottom": "ま",
+		"index": 564
+	},
+	{
+		"top": "da ",
+		"bottom": "だ",
+		"index": 565
+	},
+	{
+		"top": "de",
+		"bottom": "出会",
+		"index": 566
+	},
+	{
+		"top": "a",
+		"bottom": " ",
+		"index": 567
+	},
+	{
+		"top": "i ",
+		"bottom": "い",
+		"index": 568
+	},
+	{
+		"top": "ni ",
+		"bottom": "に",
+		"index": 569
+	},
+	{
+		"top": "do",
+		"bottom": "ど",
+		"index": 570
+	},
+	{
+		"top": "n",
+		"bottom": "ん",
+		"index": 571
+	},
+	{
+		"top": "na ",
+		"bottom": "な",
+		"index": 572
+	},
+	{
+		"top": "i",
+		"bottom": "意",
+		"index": 573
+	},
+	{
+		"top": "mi ",
+		"bottom": "味",
+		"index": 574
+	},
+	{
+		"top": "ga ",
+		"bottom": "が",
+		"index": 575
+	},
+	{
+		"top": "a",
+		"bottom": "あ",
+		"index": 576
+	},
+	{
+		"top": "ru ",
+		"bottom": "る",
+		"index": 577
+	},
+	{
+		"top": "ka",
+		"bottom": "か",
+		"index": 578
+	},
+	{
+		"top": "shi",
+		"bottom": "知",
+		"index": 579
+	},
+	{
+		"top": "ra",
+		"bottom": "ら",
+		"index": 580
+	},
+	{
+		"top": "na",
+		"bottom": "な",
+		"index": 581
+	},
+	{
+		"top": "i ",
+		"bottom": "い",
+		"index": 582
+	},
+	{
+		"top": "ke",
+		"bottom": "け",
+		"index": 583
+	},
+	{
+		"top": "re",
+		"bottom": "れ",
+		"index": 584
+	},
+	{
+		"top": "do ",
+		"bottom": "ど",
+		"index": 585
+	},
+	{
+		"top": "ma",
+		"bottom": "ま",
+		"index": 586
+	},
+	{
+		"top": "bu",
+		"bottom": "ぶ",
+		"index": 587
+	},
+	{
+		"top": "shi",
+		"bottom": "し",
+		"index": 588
+	},
+	{
+		"top": "i ",
+		"bottom": "い",
+		"index": 589
+	},
+	{
+		"top": "ne",
+		"bottom": "ね",
+		"index": 590
+	},
+	{
+		"top": "(fu~",
+		"bottom": " ",
+		"index": 591
+	},
+	{
+		"top": "fu",
+		"bottom": " ",
+		"index": 592
+	},
+	{
+		"top": "fu!)",
+		"bottom": " ",
+		"index": 593
+	},
+	{
+		"top": "bo",
+		"bottom": "僕",
+		"index": 594
+	},
+	{
+		"top": "ku",
+		"bottom": " ",
+		"index": 595
+	},
+	{
+		"top": "ra ",
+		"bottom": "ら",
+		"index": 596
+	},
+	{
+		"top": "no ",
+		"bottom": "の",
+		"index": 597
+	},
+	{
+		"top": "yu",
+		"bottom": "夢",
+		"index": 598
+	},
+	{
+		"top": "me",
+		"bottom": " ",
+		"index": 599
+	},
+	{
+		"top": "(Oh ",
+		"bottom": "（Oh",
+		"index": 600
+	},
+	{
+		"top": "yes, ",
+		"bottom": "yes,",
+		"index": 601
+	},
+	{
+		"top": "Do",
+		"bottom": "Do",
+		"index": 602
+	},
+	{
+		"top": "ki-",
+		"bottom": "ki-",
+		"index": 603
+	},
+	{
+		"top": "Do",
+		"bottom": "Do",
+		"index": 604
+	},
+	{
+		"top": "ki ",
+		"bottom": "ki",
+		"index": 605
+	},
+	{
+		"top": "Sun",
+		"bottom": "Sun",
+		"index": 606
+	},
+	{
+		"top": "shine)",
+		"bottom": "shine）",
+		"index": 607
+	},
+	{
+		"top": "me",
+		"bottom": "め",
+		"index": 608
+	},
+	{
+		"top": "za",
+		"bottom": "ざ",
+		"index": 609
+	},
+	{
+		"top": "me",
+		"bottom": "め",
+		"index": 610
+	},
+	{
+		"top": "tan",
+		"bottom": "たん",
+		"index": 611
+	},
+	{
+		"top": "da ",
+		"bottom": "だ",
+		"index": 612
+	},
+	{
+		"top": "yo",
+		"bottom": "よ",
+		"index": 613
+	},
+	{
+		"top": "(Oh ",
+		"bottom": "（Oh",
+		"index": 614
+	},
+	{
+		"top": "yes, ",
+		"bottom": "yes,",
+		"index": 615
+	},
+	{
+		"top": "Do",
+		"bottom": "Do",
+		"index": 616
+	},
+	{
+		"top": "ki-",
+		"bottom": "ki-",
+		"index": 617
+	},
+	{
+		"top": "Do",
+		"bottom": "Do",
+		"index": 618
+	},
+	{
+		"top": "ki ",
+		"bottom": "ki",
+		"index": 619
+	},
+	{
+		"top": "Sun",
+		"bottom": "Sun",
+		"index": 620
+	},
+	{
+		"top": "shine)",
+		"bottom": "shine）",
+		"index": 621
+	},
+	{
+		"top": "i",
+		"bottom": "今",
+		"index": 622
+	},
+	{
+		"top": "ma... ",
+		"bottom": "…",
+		"index": 623
+	},
+	{
+		"top": "mi",
+		"bottom": "み",
+		"index": 624
+	},
+	{
+		"top": "ra",
+		"bottom": "ら",
+		"index": 625
+	},
+	{
+		"top": "i, ",
+		"bottom": "い、",
+		"index": 626
+	},
+	{
+		"top": "ka",
+		"bottom": "変",
+		"index": 627
+	},
+	{
+		"top": "wa",
+		"bottom": "わ",
+		"index": 628
+	},
+	{
+		"top": "ri ",
+		"bottom": "り",
+		"index": 629
+	},
+	{
+		"top": "ha",
+		"bottom": "は",
+		"index": 630
+	},
+	{
+		"top": "ji",
+		"bottom": "じ",
+		"index": 631
+	},
+	{
+		"top": "me",
+		"bottom": "め",
+		"index": 632
+	},
+	{
+		"top": "ta ",
+		"bottom": "た",
+		"index": 633
+	},
+	{
+		"top": "ka",
+		"bottom": "か",
+		"index": 634
+	},
+	{
+		"top": "mo!",
+		"bottom": "も！",
+		"index": 635
+	},
+	{
+		"top": "sou ",
+		"bottom": "そう",
+		"index": 636
+	},
+	{
+		"top": "da ",
+		"bottom": "だ",
+		"index": 637
+	},
+	{
+		"top": "bo",
+		"bottom": "僕",
+		"index": 638
+	},
+	{
+		"top": "ku",
+		"bottom": " ",
+		"index": 639
+	},
+	{
+		"top": "ta",
+		"bottom": "た",
+		"index": 640
+	},
+	{
+		"top": "chi ",
+		"bottom": "ち",
+		"index": 641
+	},
+	{
+		"top": "wa ",
+		"bottom": "は",
+		"index": 642
+	},
+	{
+		"top": "ma",
+		"bottom": "ま",
+		"index": 643
+	},
+	{
+		"top": "da ",
+		"bottom": "だ",
+		"index": 644
+	},
+	{
+		"top": "yu",
+		"bottom": "夢",
+		"index": 645
+	},
+	{
+		"top": "me ",
+		"bottom": " ",
+		"index": 646
+	},
+	{
+		"top": "ni",
+		"bottom": "に",
+		"index": 647
+	},
+	{
+		"top": "ki",
+		"bottom": "気",
+		"index": 648
+	},
+	{
+		"top": "dzui",
+		"bottom": "づい",
+		"index": 649
+	},
+	{
+		"top": "ta ",
+		"bottom": "た",
+		"index": 650
+	},
+	{
+		"top": "ba",
+		"bottom": "ば",
+		"index": 651
+	},
+	{
+		"top": "ka",
+		"bottom": "か",
+		"index": 652
+	},
+	{
+		"top": "ri",
+		"bottom": "り",
+		"index": 653
+	}
+]

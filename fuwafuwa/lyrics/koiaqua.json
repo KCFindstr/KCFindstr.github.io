@@ -1,0 +1,522 @@
+﻿[
+	{
+		"top": "(fu",
+		"bottom": " ",
+		"index": 1
+	},
+	{
+		"top": "fu!)",
+		"bottom": " ",
+		"index": 2
+	},
+	{
+		"top": " x 3",
+		"bottom": " ",
+		"index": 3
+	},
+	{
+		"top": "sorairo Kaaten ",
+		"bottom": "空色カーテン",
+		"index": 4
+	},
+	{
+		"top": "Open!",
+		"bottom": "Open!",
+		"index": 5
+	},
+	{
+		"top": " umiiro Geeto ",
+		"bottom": "海色ゲート",
+		"index": 6
+	},
+	{
+		"top": "Welcome!",
+		"bottom": "Welcome!",
+		"index": 7
+	},
+	{
+		"top": "a-",
+		"bottom": "あ",
+		"index": 8
+	},
+	{
+		"top": "so-",
+		"bottom": "・そ",
+		"index": 9
+	},
+	{
+		"top": "bi-",
+		"bottom": "・び",
+		"index": 10
+	},
+	{
+		"top": "ma-",
+		"bottom": "・ま",
+		"index": 11
+	},
+	{
+		"top": "shou",
+		"bottom": "・しょう",
+		"index": 12
+	},
+	{
+		"top": "yura yura yurenagara shinju no tokei",
+		"bottom": "ゆらゆらゆれながら真珠の時計",
+		"index": 13
+	},
+	{
+		"top": "kimi to watashi o yume ni sasoikomu no",
+		"bottom": "キミとわたしを夢に誘いこむの",
+		"index": 14
+	},
+	{
+		"top": "suisou de sawagu sawaide haneru",
+		"bottom": "水槽でさわぐさわいで跳ねる",
+		"index": 15
+	},
+	{
+		"top": "sakanatachi no Paatii yobarechatta",
+		"bottom": "サカナたちのパーティー呼ばれちゃった",
+		"index": 16
+	},
+	{
+		"top": "nande mizu no naka demo iki ga dekiru no?",
+		"bottom": "なんで水のなかでも息ができるの？",
+		"index": 17
+	},
+	{
+		"top": "tabun sakki nonda atsui ocha no sei ka na",
+		"bottom": "たぶんさっき飲んだ熱いお茶のせいかな",
+		"index": 18
+	},
+	{
+		"top": "maa sonna koto wa kinishinai shinaide",
+		"bottom": "まあそんなことは気にしないっしないでっ",
+		"index": 19
+	},
+	{
+		"top": "sakanatachi no Paatii tanoshimou ka",
+		"bottom": "サカナたちのパーティー楽しもうか",
+		"index": 20
+	},
+	{
+		"top": "tottemo tottemo tanoshisou",
+		"bottom": "とってもとっても楽しそう",
+		"index": 21
+	},
+	{
+		"top": "(puka puka)",
+		"bottom": "（ぷかぷか）",
+		"index": 22
+	},
+	{
+		"top": "dattara issho ni puka puka shichaeba?",
+		"bottom": "だったら一緒にぷかぷかしちゃえば？",
+		"index": 23
+	},
+	{
+		"top": "itsumo to chigau watashi ni nare",
+		"bottom": "いつもと違うわたしになれ",
+		"index": 24
+	},
+	{
+		"top": "toiki ga kikoeru kyorimade chikadzukitai na",
+		"bottom": "吐息が聞こえる距離まで近づきたいな",
+		"index": 25
+	},
+	{
+		"top": "I miss you!",
+		"bottom": "Imissyou!",
+		"index": 26
+	},
+	{
+		"top": "Akuariumu de",
+		"bottom": "アクアリウムで",
+		"index": 27
+	},
+	{
+		"top": "(Yeah!)",
+		"bottom": "（Yeah!）",
+		"index": 28
+	},
+	{
+		"top": "futari ga deau Fantajii",
+		"bottom": "ふたりが出会うファンタジー",
+		"index": 29
+	},
+	{
+		"top": "fui ni tokimeku no sore wa koi no mahou",
+		"bottom": "ふいにときめくのそれは恋の魔法",
+		"index": 30
+	},
+	{
+		"top": "(Fantastic Love)",
+		"bottom": "（Fantasticlove）",
+		"index": 31
+	},
+	{
+		"top": "Akuariumu de",
+		"bottom": "アクアリウムで",
+		"index": 32
+	},
+	{
+		"top": "(Yeah!)",
+		"bottom": "（Yeah!）",
+		"index": 33
+	},
+	{
+		"top": "kidzuite mune no oku ni himeteta",
+		"bottom": "気づいて胸の奥に秘めてた",
+		"index": 34
+	},
+	{
+		"top": "(ooooh YAY)",
+		"bottom": " ",
+		"index": 35
+	},
+	{
+		"top": "hontou no kimochi korekara sunao ni natte miyou",
+		"bottom": "本当のきもちこれから素直になってみよう",
+		"index": 36
+	},
+	{
+		"top": "daisuki wa mou kakusanai!",
+		"bottom": "大好きはもうかくさない！",
+		"index": 37
+	},
+	{
+		"top": "(nai!)",
+		"bottom": "(なーい！)",
+		"index": 38
+	},
+	{
+		"top": "datte mizu no naka dashi migi mo hidari mo",
+		"bottom": "だって水のなかだし右も左も",
+		"index": 39
+	},
+	{
+		"top": "shita kara ue made jouzu ni oyogeru ne ",
+		"bottom": "下から上までじょうずに泳げるね",
+		"index": 40
+	},
+	{
+		"top": "Wao!",
+		"bottom": "ワーオ！",
+		"index": 41
+	},
+	{
+		"top": "suishin wa asai no? seishun wa fukai no?",
+		"bottom": "水深は浅いの？青春は深いの？",
+		"index": 42
+	},
+	{
+		"top": "sakanatachi wa nandemo shitteru yo",
+		"bottom": "サカナたちはなんでも知ってるよ",
+		"index": 43
+	},
+	{
+		"top": "shikkari shikkari tanoshinde",
+		"bottom": "しっかりしっかり楽しんで",
+		"index": 44
+	},
+	{
+		"top": "(awa awa)",
+		"bottom": "（あわあわ）",
+		"index": 45
+	},
+	{
+		"top": "saigo wa issho ni awa awa ni notte",
+		"bottom": "さいごは一緒にあわあわに乗って",
+		"index": 46
+	},
+	{
+		"top": "mata aeru ne watashi ni Kisu",
+		"bottom": "また会えるねわたしにキスしちゃえば？",
+		"index": 47
+	},
+	{
+		"top": "shichaeba? shichaitai? shichaina yo!",
+		"bottom": "しちゃいたい？しちゃいなよ！",
+		"index": 48
+	},
+	{
+		"top": "ima dakette kimi dakette I love you!",
+		"bottom": "いまだけってキミだけってIloveyou!",
+		"index": 49
+	},
+	{
+		"top": "(I love you!)",
+		"bottom": "（Iloveyou!）",
+		"index": 50
+	},
+	{
+		"top": "Marin Buruu nara",
+		"bottom": "マリンブルーなら",
+		"index": 51
+	},
+	{
+		"top": "(Yeah!)",
+		"bottom": "（Yeah!）",
+		"index": 52
+	},
+	{
+		"top": "futari wa yume no Shinfonii",
+		"bottom": "ふたりは夢のシンフォニー",
+		"index": 53
+	},
+	{
+		"top": "kitto kanaderu no amai koi no kiseki",
+		"bottom": "きっと奏でるのあまい恋の奇跡",
+		"index": 54
+	},
+	{
+		"top": "(Fantastic Eyes)",
+		"bottom": "（Fantasticeyes）",
+		"index": 55
+	},
+	{
+		"top": "Marin Buruu nara",
+		"bottom": "マリンブルーなら",
+		"index": 56
+	},
+	{
+		"top": "(Yeah!)",
+		"bottom": "（Yeah!）",
+		"index": 57
+	},
+	{
+		"top": "hajimete nanoni kowakunain damon",
+		"bottom": "初めてなのに怖くないんだもん",
+		"index": 58
+	},
+	{
+		"top": "(ooooh YAY)",
+		"bottom": " ",
+		"index": 59
+	},
+	{
+		"top": "hontou ni watashi tsugi kara daitan ni natte miyou",
+		"bottom": "本当にわたしつぎから大胆になってみよう",
+		"index": 60
+	},
+	{
+		"top": "daisuki yo mou kakusanai!",
+		"bottom": "大好きよっもうかくさない！",
+		"index": 61
+	},
+	{
+		"top": "(nai!)",
+		"bottom": "（なーい！）",
+		"index": 62
+	},
+	{
+		"top": "sasocchaunda ",
+		"bottom": "誘っちゃうんだ",
+		"index": 63
+	},
+	{
+		"top": "Wow wo!",
+		"bottom": "Wowwo!",
+		"index": 64
+	},
+	{
+		"top": " Akuariumu de",
+		"bottom": "アクアリウムで",
+		"index": 65
+	},
+	{
+		"top": "sasocchaunda ",
+		"bottom": "誘っちゃうんだ",
+		"index": 66
+	},
+	{
+		"top": "Wow wo!",
+		"bottom": "Wowwo!",
+		"index": 67
+	},
+	{
+		"top": " koi ni naritai",
+		"bottom": "恋になりたい",
+		"index": 68
+	},
+	{
+		"top": "(Fantastic!)",
+		"bottom": "（Fantastic!）",
+		"index": 69
+	},
+	{
+		"top": " a-so-bi-ma-shou",
+		"bottom": "あ・そ・び・ま・しょう",
+		"index": 70
+	},
+	{
+		"top": "(fu",
+		"bottom": " ",
+		"index": 71
+	},
+	{
+		"top": "fu!)",
+		"bottom": " ",
+		"index": 72
+	},
+	{
+		"top": " x 5",
+		"bottom": " ",
+		"index": 73
+	},
+	{
+		"top": "(hai)",
+		"bottom": " ",
+		"index": 74
+	},
+	{
+		"top": " x 7",
+		"bottom": " ",
+		"index": 75
+	},
+	{
+		"top": "(fu",
+		"bottom": " ",
+		"index": 76
+	},
+	{
+		"top": "fu",
+		"bottom": " ",
+		"index": 77
+	},
+	{
+		"top": "fu!)",
+		"bottom": " ",
+		"index": 78
+	},
+	{
+		"top": "(hai)",
+		"bottom": " ",
+		"index": 79
+	},
+	{
+		"top": " x 7",
+		"bottom": " ",
+		"index": 80
+	},
+	{
+		"top": "(fu",
+		"bottom": " ",
+		"index": 81
+	},
+	{
+		"top": "fu",
+		"bottom": " ",
+		"index": 82
+	},
+	{
+		"top": "fu!)",
+		"bottom": " ",
+		"index": 83
+	},
+	{
+		"top": "puka puka de awa awa de",
+		"bottom": "ぷかぷかであわあわで",
+		"index": 84
+	},
+	{
+		"top": "mitsumeatte iitai na",
+		"bottom": "みつめあって言いたいな",
+		"index": 85
+	},
+	{
+		"top": "daisuki Wow wo!",
+		"bottom": "大好きWowwo!",
+		"index": 86
+	},
+	{
+		"top": "Akuariumu de futari ga deau Fantajii",
+		"bottom": "アクアリウムでふたりが出会うファンタジー",
+		"index": 87
+	},
+	{
+		"top": "fui ni tokimeku no sore wa koi no mahou",
+		"bottom": "ふいにときめくのそれは恋の魔法",
+		"index": 88
+	},
+	{
+		"top": "Akuariumu de",
+		"bottom": "アクアリウムで",
+		"index": 89
+	},
+	{
+		"top": "(Yeah!)",
+		"bottom": "（Yeah!）",
+		"index": 90
+	},
+	{
+		"top": "kidzuite mune no oku ni himeteta",
+		"bottom": "気づいて胸の奥に秘めてた",
+		"index": 91
+	},
+	{
+		"top": "(ooooh YAY)",
+		"bottom": " ",
+		"index": 92
+	},
+	{
+		"top": "hontou no kimochi korekara sunao ni natte",
+		"bottom": "本当のきもちこれから素直になって",
+		"index": 93
+	},
+	{
+		"top": "tsugi kara daitan ni natte miyou",
+		"bottom": "つぎから大胆になってみよう",
+		"index": 94
+	},
+	{
+		"top": "daisuki yo mou kakusanai",
+		"bottom": "大好きよっもうかくさない",
+		"index": 95
+	},
+	{
+		"top": "(nai!)",
+		"bottom": "（なーい！）",
+		"index": 96
+	},
+	{
+		"top": "(Fantastic Love",
+		"bottom": "（Fantasticlove",
+		"index": 97
+	},
+	{
+		"top": "Yeah! ",
+		"bottom": "Yeah!",
+		"index": 98
+	},
+	{
+		"top": "Yeah!",
+		"bottom": "Yeah!",
+		"index": 99
+	},
+	{
+		"top": "Yeah!",
+		"bottom": "Yeah!",
+		"index": 100
+	},
+	{
+		"top": "Yeah!)",
+		"bottom": "Yeah!）",
+		"index": 101
+	},
+	{
+		"top": "(fu",
+		"bottom": " ",
+		"index": 102
+	},
+	{
+		"top": "fu",
+		"bottom": " ",
+		"index": 103
+	},
+	{
+		"top": "fu!)",
+		"bottom": " ",
+		"index": 104
+	}
+]
