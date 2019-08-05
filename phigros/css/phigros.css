@@ -1,0 +1,204 @@
+/* screens */
+#screen-1 {
+	height: 93vh;
+	width: 100%;
+	background: black;
+	text-align: center;
+	color: white;
+	padding-top: 5vh;
+}
+
+#screen-2 {
+	height: 200vw;
+	position: relative;
+}
+
+#screen-2 img {
+	width: 100%;
+	height: auto;
+}
+
+/* phigros logo */
+#game-logo {
+	width: 50%;
+	height: auto;
+}
+
+/* positioning */
+.bottom-bar {
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+/* font sizes */
+h1 {
+	font-size: 6vh;
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+h2 {
+	font-size: 4.5vh;
+	margin: 0;
+}
+
+/* list of app stores */
+.app-list {
+	padding: 5px;
+}
+
+.app-list img {
+	width: 160px;
+	height: auto;
+	margin: 5px;
+}
+
+/* Y 1st picture */
+#sm-y-1 {
+	z-index: 2;
+	left: 0;
+	position: absolute;
+}
+#sm-y-1-text {
+	font-size: 6vw;
+	position: absolute;
+	right: 0;
+	top: 3vw;
+	color: rgb(217, 97, 97);
+	transform: rotate(15deg) translateY(10vw);
+	text-align: right;
+	line-height: 1.2;
+	opacity: 0;
+}
+#sm-y-1-text > div:first-child {
+	margin-right: 6vw;
+}
+
+/* Y name field */
+#sm-y-2 {
+	color: white;
+	position: absolute;
+	top: 44vw;
+	left: 0;
+	width: 85%;
+	height: auto;
+	z-index: 1;
+	opacity: 0;
+	transform: scale(2);
+	transform-origin: 50% 50%;
+}
+#sm-y-2 > div:first-child {
+	top: 23vw;
+	left: 41vw;
+	transform: rotate(14deg);
+}
+.text-character {
+	position: absolute;
+	z-index: 4;
+	font-size: 3.5vw;
+}
+.text-character > span {
+	display: block;
+	line-height: 1.0;
+}
+#sm-y-2 > div:last-child {
+	position: absolute;
+	top: 30vw;
+	left: 45vw;
+	z-index: 4;
+	font-size: 10vw;
+	transform: rotate(14deg);
+	color: rgb(217, 97, 97);
+}
+
+/* character pic */
+#sm-y {
+	background-image: url('../img/YS.png');
+	top: 4vw;
+	left: -60vw;
+	width: 65%;
+}
+#sm-y > img {
+	margin-left: 2vw;
+	margin-top: -0.5vw;
+}
+
+/* general css for character pic */
+.phigros-character {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+	height: auto;
+	z-index: 5;
+	opacity: 0;
+}
+
+/* N 1st picture */
+#sm-n-1 {
+	position: absolute;
+	z-index: 2;
+	top: 78vw;
+	left: 0;
+}
+#sm-n-1-text {
+	position: absolute;
+	left: 0;
+	top: 152vw;
+	font-size: 6vw;
+	transform: rotate(-15deg) translateY(-10vw);
+	color: rgb(0, 167, 187);
+	opacity: 0;
+}
+
+/* N name field */
+#sm-n-l {
+	position: absolute;
+	top: 156vw;
+	left: 0;
+	width: 77%;
+	height: auto;
+	z-index: 1;
+}
+#sm-n-r {
+	position: absolute;
+	top: 134.2vw;
+	right: 0;
+	width: 45%;
+	height: auto;
+	z-index: 1;
+}
+#sm-n-text {
+	top: 155vw;
+	right: 33.5vw;
+	transform: rotate(-15deg);
+	color: rgb(0, 167, 187);
+}
+#sm-n-lr-text {
+	position: absolute;
+	left: 40vw;
+	top: 178vw;
+	font-size: 6vw;
+	color: rgb(0, 167, 187);
+	transform: rotate(-15deg);
+}
+
+/* character pic */
+#sm-n {
+	background-image: url('../img/NS.png');
+	top: 98vw;
+	right: -50vw;
+	width: 49%;
+}
+#sm-n > img {
+	margin-left: -3vw;
+	margin-top: -1vw;
+}
+
+/* trigger */
+.sm-trigger {
+	position: absolute;
+}

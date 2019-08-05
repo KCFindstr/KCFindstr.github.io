@@ -1,0 +1,56 @@
+
+/* markdown */
+.editor-toolbar {
+	background-color: white;
+}
+
+.editor-statusbar {
+	background-color: white;
+	border-radius: 5px;
+}
+
+.editor-preview-side {
+	color: black;
+}
+
+.markdown pre, .editor-preview-side pre {
+	color: white;
+	background: rgba(255, 255, 255, 0.2);
+	padding: 3px 10px;
+	border-radius: 5px;
+	box-shadow: inset 0px 0px 3px 0px white;
+}
+
+.markdown pre > code, .editor-preview-side pre > code {
+	background-color: transparent;
+}
+
+.markdown code, .editor-preview-side code {
+	background-color: rgba(255, 255, 255, .2);
+	color: orange;
+	border-radius: 5px;
+	padding: 3px;
+}
+
+/* blockquote */
+blockquote {
+	background-color: rgba(255, 255, 255, 0.2);
+	border-left: 3px solid limegreen;
+	padding: 3px 10px;
+}
+
+blockquote p {
+	margin-bottom: 0;
+}
+
+.markdown p, .editor-preview-side p {
+	white-space: pre-line;
+}
+
+.markdown li, .editor-preview-side li {
+	list-style: inside;
+}
+
+.CodeMirror {
+	padding: 0 !important;
+}

@@ -1,0 +1,199 @@
+/* custom font */
+@font-face {
+  font-family: 'CaviarDreams';
+  src: url('../font/CaviarDreams_Bold.ttf');
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	color: black;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'CaviarDreams', "Microsoft YaHei", "微软雅黑", Helvetica, Tahoma, Arial, STXihei, "华文细黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+}
+
+/* background image */
+.phigros-bg {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: url(/img/home.jpg) no-repeat center center;
+	background-size: cover;
+	z-index: -1;
+}
+
+/* notification */
+.notification {
+	position: fixed;
+	z-index: 1200;
+	top: 20px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	display: none;
+}
+
+.notification a {
+	color: black;
+}
+
+.notification a:hover {
+	color: black;
+}
+
+/* font sizes */
+.dropdown-item {
+	font-size: 1.2rem;
+}
+
+/* form submission feedback */
+form .feedback {
+	margin-top: 3px;
+	background-color: rgba(0, 0, 0, .5);
+	border: 1px solid red;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 16px;
+	display: inline-block;
+}
+
+/* form */
+form .form-control {
+	font-weight: bold;
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+}
+
+form {
+	font-size: 20px;
+}
+
+form .btn {
+	font-size: 18px;
+}
+
+/* nav bar */
+.navbar {
+	z-index: 10;
+	background-color: white;
+	font-size: 1.2em;
+	box-shadow: 0 0 10px black;
+}
+.navbar-brand > img {
+	height: 36px;
+}
+.navbar-brand {
+	border-right: 1.5px solid black;
+}
+.nav-link {
+	color: black !important;
+	transition: text-shadow 0.2s;
+}
+.nav-link:hover {
+	text-shadow: 0 0 3px gray;
+	transition: text-shadow 0.2s;
+}
+.navbar .dropdown-toggle::after {
+	margin-left: 0;
+	vertical-align: -.255em;
+	border-left: .3em solid;
+	border-top: .3em solid transparent;
+	border-right: 0;
+	border-bottom: .3em solid transparent;
+}
+.navbar #langDropdown::after {
+	vertical-align: -.2em;
+	border: 0.5em solid;
+	border-radius: 50%;
+}
+
+/**黑色透明**/
+.box {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .5);
+}
+
+/* nav links */
+.nav-right {
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 20px;
+}
+
+.icon-span {
+	vertical-align: middle;
+}
+
+/* pagination */
+.pagination {
+	justify-content: center;
+}
+
+/* badge */
+.badge {
+	font-size: 16px;
+}
+
+/* center an item */
+.item-centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* footer */
+footer {
+	position: fixed;
+	bottom: 20px;
+	font-size: 20px;
+	text-align: center;
+	left: 50%;
+	transform: translate(-50%, 0);
+	background-color: rgba(0, 0, 0, .5);
+}
+
+/* responsive design */
+@media (min-width: 768px) {
+	form {
+		font-size: 25px;
+	}
+
+	form .btn {
+		font-size: 20px;
+	}
+
+	.h1 {
+		font-size: 80px;
+		font-weight: bold;
+	}
+
+	.h2 {
+		font-size: 48px;
+	}
+	
+	.section:first-child .container {
+		padding-top: 190px;
+	}
+}
+
+#main {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow-x: hidden;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+	display: none;
+}

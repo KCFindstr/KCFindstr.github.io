@@ -1,0 +1,177 @@
+/* Main: hide y overflow */
+#main {
+	overflow: hidden;
+}
+
+/* Gallery */
+.gallery {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+}
+
+.gallery > div {
+	height: 50%;
+	white-space: nowrap;
+	display: inline-flex;
+}
+
+.gallery img {
+	height: 90%;
+	width: auto;
+	display: inline-block;
+	margin: auto 2vh;
+	opacity: 0.2;
+}
+
+.gallery-left {
+	animation: move-left 45s linear infinite;
+}
+
+.gallery-right {
+	animation: move-left 45s linear reverse infinite;
+}
+
+/* Elements */
+#main-red {
+	position: absolute;
+	top: 0;
+	left: -3vw;
+	min-height: 100%;
+	width: 60%;
+	transform: translate(50%, 100%);
+	animation: main-red 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 0.4s;
+}
+
+#main-blue {
+	position: absolute;
+	bottom: -30vh;
+	left: 0;
+	height: 80%;
+	width: 100%;
+	transform: translate(-100%, 50%);
+	animation: main-blue 1s;
+	animation-fill-mode: forwards;
+}
+
+#main-phigros {
+	position: absolute;
+	bottom: -30vh;
+	left: 0;
+	height: 80%;
+	width: 100%;
+	transform-origin: 88% 18%;
+	transform: scale(0.4);
+	animation: main-phigros 1s;
+	animation-fill-mode: forwards;
+}
+#main-phigros > img {
+	width: 100%;
+	height: 100%;
+}
+
+#main-pigeon {
+	background-image: url('../img/RS_white.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+	transform: translate(-50%, 100%);
+	left: 20vw;
+	bottom: -10px;
+	animation: main-pigeon 1s;
+	animation-delay: 0.6s;
+	animation-fill-mode: forwards;
+}
+
+#main-pigeon > img {
+	position: relative;
+	left: 10px;
+	bottom: 10px;
+	height: 88vh;
+	width: auto;
+}
+
+#main-title {
+	position: absolute;
+	width: fit-content;
+	left: 40vw;
+	top: 20vh;
+	font-size: 2.5vw;
+	animation: fadeInDown 1s 0.8s both;
+}
+
+#main-title > h1 {
+	font-size: 6vw;
+}
+
+#main-click {
+	position: absolute;
+	right: 16vw;
+	bottom: 10vh;
+	text-align: center;
+	overflow: visible;
+	font-size: 4vh;
+	transform: rotate(-15deg);
+	transform-origin: 50% 0%;
+}
+
+#main-click > div {
+	animation: fadeInUp 1s 1.5s both;
+}
+
+#main-click > div::before {
+	content: "";
+	display: block;
+	margin-left: calc(50% - .4em);
+	margin-right: calc(50% - .4em);
+	border-bottom: .6em solid;
+	border-left: .4em solid transparent;
+	border-top: 0;
+	border-right: .4em solid transparent;
+}
+
+/* animations */
+@keyframes main-blue {
+	0% {
+		transform: translate(-100%, 50%);
+	}
+	100% {
+		transform: translate(0, 0);
+	}
+}
+@keyframes main-phigros {
+	0% {
+		transform: scale(0.4) translate(-240%, 120%);
+	}
+	100% {
+		transform: scale(0.4) translate(0, 0);
+	}
+}
+@keyframes main-red {
+	0% {
+		transform: translate(50%, 100%);
+	}
+	100% {
+		transform: translate(0, 0);
+	}
+}
+@keyframes main-pigeon {
+	0% {
+		transform: translate(-50%, 100%);
+	}
+	100% {
+		transform: translate(-50%, 0);
+	}
+}
+@keyframes move-left {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-50%);
+	}
+}
