@@ -86,7 +86,7 @@ form .btn {
 	font-size: 1.2em;
 	box-shadow: 0 0 10px black;
 	padding: 0;
-	--nav-height: 40px;
+	--nav-height: 50px;
 }
 #main > .navbar > .container {
 	position: relative;
@@ -210,13 +210,6 @@ footer img {
 
 	.pigeon-logo > img {
 		width: 200px;
-	}
-}
-
-
-@media (min-height: 400px) {
-	#main > .navbar {
-		--nav-height: 50px;
 	}
 }
 
