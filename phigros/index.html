@@ -27,21 +27,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="csrf-token" content="3Bs5b32sJXgr7Kslc6wUBYfnWIjMEZEwhIbVgQMH">
 	<!-- icon -->
-	<link rel="shortcut icon" type="image/x-icon" href="http://localhost:8000/icon/pigeon-logo.png">
+	<link rel="shortcut icon" type="image/x-icon" href="icon/pigeon-logo.png">
 	<title>Pigeon Games | Home</title>
 	<!-- jquery -->
 	<script src="https://code.jquery.com/jquery-3.4.0.min.js"
 		integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
-	<!-- bootstrap css -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<!-- bootstrap js -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-		crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-		crossorigin="anonymous"></script>
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
 	<!-- moment js -->
 	<script src="js/lib/moment.min.js"></script>
 	<!-- icons -->
@@ -57,110 +51,125 @@
 </head>
 
 <body>
-	<div id="main">
-		<!-- Navbar -->
-		<header class="navbar navbar-expand navbar-light py-1">
-			<!-- logo -->
-			<a class="navbar-brand mr-2 py-0 pr-4" href="index.html"><img src="img/LOGO.png" /></a>
-			<!-- navbar links -->
-			<ul class="navbar-nav mr-auto pb-1">
-				<li class="nav-item dropdown mr-2 ml-1">
-					<a class="nav-link dropdown-toggle" href="#" id="projectDropdown" role="button" data-toggle="dropdown"
-						aria-haspopup="true" aria-expanded="false">
-						项目
-					</a>
-					<div class="dropdown-menu" aria-labelledby="projectDropdown">
-						<a class="dropdown-item" href="phigros.html">Phigros</a>
-					</div>
-				</li>
-				<li class="nav-item mx-2">
-					<a class="nav-link" href="#">动态</a>
-				</li>
-				<li class="nav-item mx-2">
-					<a class="nav-link" href="#">联系我们</a>
-				</li>
-			</ul>
-			<ul class="navbar-nav dropdown pb-1">
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button" data-toggle="dropdown"
-						aria-haspopup="true" aria-expanded="false">
-						语言
-					</a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="langDropdown">
-						<a class="dropdown-item" href="#">English</a>
-						<a class="dropdown-item" href="#">简体中文</a>
-						<a class="dropdown-item" href="#">繁体中文</a>
-						<a class="dropdown-item" href="#">日本語</a>
-					</div>
-				</li>
-			</ul>
-		</header>
+<div id="main">
 
-		<!-- contents -->
-		<div class="row gallery">
-			<div class="gallery-left">
-				<img src="img/chart/1.jpg"/>
-				<img src="img/chart/2.jpg"/>
-				<img src="img/chart/3.jpg"/>
-				<img src="img/chart/4.jpg"/>
-				<img src="img/chart/5.jpg"/>
-				<img src="img/chart/6.jpg"/>
-				<img src="img/chart/7.jpg"/>
-				<img src="img/chart/8.jpg"/>
-				<img src="img/chart/9.jpg"/>
-				<img src="img/chart/10.jpg"/>
-				<img src="img/chart/1.jpg"/>
-				<img src="img/chart/2.jpg"/>
-				<img src="img/chart/3.jpg"/>
-				<img src="img/chart/4.jpg"/>
-				<img src="img/chart/5.jpg"/>
-				<img src="img/chart/6.jpg"/>
-				<img src="img/chart/7.jpg"/>
-				<img src="img/chart/8.jpg"/>
-				<img src="img/chart/9.jpg"/>
-				<img src="img/chart/10.jpg"/>
+	<nav class="navbar navbar-expand-md navbar-light">
+		<div class="container px-0">
+			<!-- LOGO -->
+			<a href="index.html" class="pigeon-logo mr-md-5 px-3">
+				<img src="img/LOGO.png"/>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!-- 导航栏 -->
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav px-3 px-md-0">
+					<li class="nav-item dropdown ml-md-3 mr-md-5">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">项目</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="phigros.html">Phigros</a>
+						</div>
+					</li>
+					<li class="nav-item mr-md-5">
+						<a class="nav-link" href="#">动态</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">联系我们</a>
+					</li>
+				</ul>
 			</div>
-			<div class="gallery-right">
-					<img src="img/chart/11.jpg"/>
-					<img src="img/chart/12.jpg"/>
-					<img src="img/chart/13.jpg"/>
-					<img src="img/chart/14.jpg"/>
-					<img src="img/chart/15.jpg"/>
-					<img src="img/chart/16.jpg"/>
-					<img src="img/chart/17.jpg"/>
-					<img src="img/chart/18.jpg"/>
-					<img src="img/chart/19.jpg"/>
-					<img src="img/chart/20.jpg"/>
-					<img src="img/chart/11.jpg"/>
-					<img src="img/chart/12.jpg"/>
-					<img src="img/chart/13.jpg"/>
-					<img src="img/chart/14.jpg"/>
-					<img src="img/chart/15.jpg"/>
-					<img src="img/chart/16.jpg"/>
-					<img src="img/chart/17.jpg"/>
-					<img src="img/chart/18.jpg"/>
-					<img src="img/chart/19.jpg"/>
-					<img src="img/chart/20.jpg"/>
+			<!-- 语言切换 -->
+			<div class="dropdown language-logo">
+				<a href="#" data-toggle="dropdown">
+					<img class="mh-100" src="img/language.png">
+				</a>
+				<div class="dropdown-menu dropdown-menu-right">
+					<a class="dropdown-item" href="#">English</a>
+					<a class="dropdown-item" href="#">简体中文</a>
+					<a class="dropdown-item" href="#">繁體中文</a>
+					<a class="dropdown-item" href="#">日本語</a>
+				</div>
 			</div>
 		</div>
+	</nav>
 
-		<img id="main-blue" src="img/b.png" />
-		<img id="main-red" src="img/red.png" />
-		<a id="main-phigros" href="phigros.html"><img src="img/game_logo.png"/></a>
-		<div id="main-pigeon">
-			<img src="img/RS.png"/>
-		</div>
-
-		<div id="main-title">
+	<!--  -->
+	<div class="section1">
+		<img id="character-bg" src="img/character_shadow.png"/>
+		<img id="character" src="img/character.png"/>
+		<div class="introduction container">
 			<h1>Pigeon Games</h1>
-			<p>欢迎了解我们的第一个项目</p>
-		</div>
-
-		<div id="main-click">
-			<div>点击这里</div>
+			<p class="describe dropdown-toggle" href="#">了解我们的全新项目</p>
 		</div>
 	</div>
 
+	<!-- -->
+	<div class="container">
+		<div class="row mt-4">
+			<!-- 立刻进入，Phigros的世界吧 -->
+			<div class="col-12 col-md-4 item-1">
+				<p>立刻进入<br/>Phigros的世界吧！</p>
+			</div>
+			<!-- 轮播图 -->
+			<div class="col-12 col-md-8 px-0">
+				<div class="end">
+					<div id="screen" class="carousel slide" data-ride="carousel">
+						<ul class="carousel-indicators">
+							<li data-target="#screen" data-slide-to="0" class="active"></li>
+							<li data-target="#screen" data-slide-to="1"></li>
+							<li data-target="#screen" data-slide-to="2"></li>
+						</ul>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img id="img" src="img/Phigros.png">
+							</div>
+							<div class="carousel-item">
+								<img id="img" src="img/Phigros.png">
+							</div>
+							<div class="carousel-item">
+								<img id="img" src="img/Phigros.png">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row mt-2">
+			<!--  -->
+			<div class="col-12 col-md-4 item-3 mt-4 mb-3">
+			</div>
+			<!-- 最新动态 -->
+			<div class="col-12 col-md-8 item-4 px-0 pl-md-3">
+				<p>最新动态</p>
+				<div class="news-img"></div>
+				<div class="background-white"></div>
+				<!-- -->
+				<div class="content"></div>
+
+				<!-- 关注 -->
+				<div class="mt-2 item-5 follow">
+					<p class="follow-font">
+						关注鸽游<img class="font-img" src="img/right.png">
+					</p>
+					<a href="https://weibo.com/u/7119316944" class="pl-md-2" target="_blank"><img src="img/WB.png"></a>
+					<a href="https://www.taptap.com/app/165287" class="pl-md-2" target="_blank"><img src="img/TAP.png"></a>
+					<a href="https://jq.qq.com/?_wv=1027&k=5hyOBQa" class="pl-md-2" target="_blank"><img src="img/QQ.png"></a>
+					<a href="https://space.bilibili.com/15859169" class="pl-md-2" target="_blank"><img src="img/BILI.png"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<footer class="footer">
+		<a href="https://weibo.com/u/7119316944" class="px-2 px-md-3" target="_blank"><img src="img/WB.png"></a>
+		<a href="https://www.taptap.com/app/165287" class="px-2 px-md-3" target="_blank"><img src="img/TAP.png"></a>
+		<a href="https://jq.qq.com/?_wv=1027&k=5hyOBQa" class="px-2 px-md-3" target="_blank"><img src="img/QQ.png"></a>
+		<a href="https://space.bilibili.com/15859169" class="px-2 px-md-3" target="_blank"><img src="img/BILI.png"></a>
+	</footer>
+
+</div>
 </body>
 
 </html>

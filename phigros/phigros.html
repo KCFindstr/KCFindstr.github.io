@@ -42,134 +42,129 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 		crossorigin="anonymous"></script>
+	<!-- fullpage js -->
+	<script src="js/lib/jquery.fullpage.min.js"></script>
+	<script src="js/lib/fullpage.scrolloverflow.js"></script>
+	<link rel="stylesheet" href="css/jquery.fullpage.min.css">
 	<!-- moment js -->
 	<script src="js/lib/moment.min.js"></script>
 	<!-- icons -->
 	<script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
 	<!-- animate.css -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-	
+
 	<!-- stylesheet -->
 	<link media="all" type="text/css" rel="stylesheet" href="css/common.css">
 	<link media="all" type="text/css" rel="stylesheet" href="css/phigros.css">
 	<!-- script -->
 	<script src="js/common.js"></script>
-	<!-- scrollmagic -->
-	<script src="js/lib/TweenMax.min.js"></script>
-	<script src="js/lib/ScrollMagic.min.js"></script>
-	<script src="js/lib/animation.gsap.min.js"></script>
-	<script src="js/lib/debug.addIndicators.min.js"></script>
 	<script src="js/phigros.js"></script>
 
 </head>
 
 <body>
-	<div id="main">
-		<!-- Navbar -->
-		<header class="navbar navbar-expand navbar-light py-1">
-			<!-- logo -->
-			<a class="navbar-brand mr-2 py-0 pr-4" href="index.html"><img src="img/LOGO.png" /></a>
-			<!-- navbar links -->
-			<ul class="navbar-nav mr-auto pb-1">
-				<li class="nav-item dropdown mr-2 ml-1">
-					<a class="nav-link dropdown-toggle" href="#" id="projectDropdown" role="button" data-toggle="dropdown"
-						aria-haspopup="true" aria-expanded="false">
-						项目
-					</a>
-					<div class="dropdown-menu" aria-labelledby="projectDropdown">
-						<a class="dropdown-item" href="phigros.html">Phigros</a>
-					</div>
-				</li>
-				<li class="nav-item mx-2">
-					<a class="nav-link" href="#">动态</a>
-				</li>
-				<li class="nav-item mx-2">
-					<a class="nav-link" href="#">联系我们</a>
-				</li>
-			</ul>
-			<ul class="navbar-nav dropdown pb-1">
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button" data-toggle="dropdown"
-						aria-haspopup="true" aria-expanded="false">
-						语言
-					</a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="langDropdown">
-						<a class="dropdown-item" href="#">English</a>
-						<a class="dropdown-item" href="#">简体中文</a>
-						<a class="dropdown-item" href="#">繁体中文</a>
-						<a class="dropdown-item" href="#">日本語</a>
-					</div>
-				</li>
-			</ul>
-		</header>
+<div id="main">
 
-		<div id="screen-1">
-			<img src="img/game_logo_2.png" id="game-logo"/>
-			<h1>在节奏中 捕捉舞动的音符！</h1>
-			<h2>创新型下落式音乐游戏</h2>
-			<div class="bottom-bar">
-				<h2>立刻获取！</h2>
-				<div class="app-list">
-					<a href="#"><img src="img/taptap.png"/></a>
-					<a href="#"><img src="img/google_play.png"/></a>
-					<a href="#"><img src="img/app_store.png"/></a>
+	<nav class="navbar navbar-expand-md navbar-light">
+		<div class="container px-0">
+			<!-- LOGO -->
+			<a href="index.html" class="pigeon-logo mr-md-5 px-3">
+				<img src="img/LOGO.png" />
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!-- 导航栏 -->
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav px-3 px-md-0">
+					<li class="nav-item dropdown ml-md-3 mr-md-5">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">项目</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="phigros.html">Phigros</a>
+						</div>
+					</li>
+					<li class="nav-item mr-md-5">
+						<a class="nav-link" href="#">动态</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">联系我们</a>
+					</li>
+				</ul>
+			</div>
+			<!-- 语言切换 -->
+			<div class="dropdown language-logo">
+				<a href="#" data-toggle="dropdown">
+					<img class="mh-100" src="img/language.png">
+				</a>
+				<div class="dropdown-menu dropdown-menu-right">
+					<a class="dropdown-item" href="#">English</a>
+					<a class="dropdown-item" href="#">简体中文</a>
+					<a class="dropdown-item" href="#">繁體中文</a>
+					<a class="dropdown-item" href="#">日本語</a>
 				</div>
 			</div>
 		</div>
+	</nav>
 
-		<div id="screen-2">
-			<div id="sm-trigger-y" class="sm-trigger" style="top: 30vw;"></div>
-			<div id="sm-trigger-y-2" class="sm-trigger" style="top: 80vw;"></div>
-			<div id="sm-trigger-n" class="sm-trigger" style="top: 120vw;"></div>
-			<div id="sm-trigger-n-1" class="sm-trigger" style="top: 160vw;"></div>
-			<div id="sm-trigger-lr" class="sm-trigger" style="top: 180vw;"></div>
-			<div id="sm-y-1">
-				<img src="img/YSSS.png"/>
+	<div id="fullpage">
+		<div class="section section-1">
+			<img class="bg1" src="img/bg1.png">
+		</div>
+		<div class="section section-2">
+			<div class="container text-left">
+				<img src="img/game_logo_2.png">
 			</div>
-			<div id="sm-y-2">
-				<div class="text-character">
-					<span>游</span>
-					<span>戏</span>
-					<span>角</span>
-					<span>色</span>
+			<div class="container text-right">
+				<p>《Phigros》是一款非定型多判定线下落式音游，为初创通过BiliBili平台发起、由众多音乐游戏同好组成的项目组“Pigeon Games（鸽游）”计划推出的音乐游戏。Phigros旨在利用新颖的游戏模式以及精心设计的剧情给音游圈的大家眼前一亮。</p>
+			</div>
+		</div>
+		<div class="section section-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-5 order-1 order-md-2 text-center">
+						<a href="https://www.bilibili.com/video/av50516268" target="_blank"><img src="img/bf.png"/></a>
+						游戏PV
+					</div>
+					<div class="col-12 col-md-7 order-2 order-md-1 mt-3 mt-md-0">
+						<p>灵活多变的判定线，伴随乐曲的节奏而跳动，变速，纵连，双压…在一首乐曲中，反应力是极为重要的，遵循节奏和旋律快来试试吧！炫酷的谱面，优秀的音律，挑战「EZ」、「HD」、「IN」、「AT」四种不同难度的原创曲目，享受音乐与演奏带来的爽快，深入于剧情的故事。</p>
+					</div>
 				</div>
-				<img src="img/YSS.png"/>
-				<div>鸠</div>
 			</div>
-			<div id="sm-y" class="phigros-character">
-				<img src="img/Y.png"/>
+		</div>
+		<div class="section section-4">
+			<div class="slide">
+				<img src="img/c1.png">
 			</div>
-			<div id="sm-y-1-text">
-				<div>多种note</div>
-				<div>发现音乐游戏全新玩法！</div>
+			<div class="slide">
+				<img src="img/c2.png">
 			</div>
-			<div id="sm-n-1">
-				<img src="img/NSSS.png"/>
+		</div>
+		<div class="section section-5">
+			<div class="section-5a d-flex flex-column justify-content-center">
+				<img src="img/phigros_text.png">
+				<div class="sec-footer">
+					<div class="get-now mb-4">
+						现在获取<img src="img/game_logo_2.png">
+					</div>
+					<div class="store-list">
+						<a href="https://www.taptap.com/app/165287" target="_blank"><img src="img/taptap.png"></a>
+						<a href="javascript: alert('咕咕咕')" target="_blank"><img src="img/google_play.png"></a>
+						<a href="javascript: alert('咕咕咕')" target="_blank"><img src="img/app_store.png"></a>
+					</div>
+				</div>
 			</div>
-			<div id="sm-n-1-text">
-				多条判定线，旋转、跳跃！
-			</div>
-			<div id="sm-n-text" class="text-character">
-				<span>游</span>
-				<span>戏</span>
-				<span>角</span>
-				<span>色</span>
-			</div>
-			<div id="sm-n-l">
-				<img src="img/NS_L.png"/>
-			</div>
-			<div id="sm-n-lr-text">
-				GINO
-			</div>
-			<div id="sm-n-r">
-				<img src="img/NS_R.png"/>
-			</div>
-			<div id="sm-n" class="phigros-character">
-				<img src="img/N.png"/>
-			</div>
+
+			<!-- footer -->
+			<footer class="footer">
+				<a href="https://weibo.com/u/7119316944" class="px-2 px-md-3" target="_blank"><img src="img/WB.png"></a>
+				<a href="https://www.taptap.com/app/165287" class="px-2 px-md-3" target="_blank"><img src="img/TAP.png"></a>
+				<a href="https://jq.qq.com/?_wv=1027&k=5hyOBQa" class="px-2 px-md-3" target="_blank"><img src="img/QQ.png"></a>
+				<a href="https://space.bilibili.com/15859169" class="px-2 px-md-3" target="_blank"><img src="img/BILI.png"></a>
+			</footer>
 		</div>
 	</div>
 
+</div>
 </body>
 
 </html>

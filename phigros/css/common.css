@@ -12,6 +12,11 @@ body {
 	padding: 0px;
 	margin: 0px;
 	font-family: 'CaviarDreams', "Microsoft YaHei", "微软雅黑", Helvetica, Tahoma, Arial, STXihei, "华文细黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+	background-color: black;
+}
+
+#main {
+	background-color: white;
 }
 
 /* background image */
@@ -75,17 +80,27 @@ form .btn {
 }
 
 /* nav bar */
-.navbar {
+#main > .navbar {
 	z-index: 10;
 	background-color: white;
 	font-size: 1.2em;
 	box-shadow: 0 0 10px black;
+	padding: 0;
+	--nav-height: 40px;
 }
-.navbar-brand > img {
-	height: 36px;
+#main > .navbar > .container {
+	position: relative;
 }
-.navbar-brand {
-	border-right: 1.5px solid black;
+.pigeon-logo {
+	background-color: #323232;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: var(--nav-height);
+}
+.pigeon-logo > img {
+	margin: auto;
+	width: 160px;
 }
 .nav-link {
 	color: black !important;
@@ -95,18 +110,15 @@ form .btn {
 	text-shadow: 0 0 3px gray;
 	transition: text-shadow 0.2s;
 }
-.navbar .dropdown-toggle::after {
-	margin-left: 0;
-	vertical-align: -.255em;
-	border-left: .3em solid;
-	border-top: .3em solid transparent;
-	border-right: 0;
-	border-bottom: .3em solid transparent;
+.navbar-toggler {
+	margin-right: 60px;
 }
-.navbar #langDropdown::after {
-	vertical-align: -.2em;
-	border: 0.5em solid;
-	border-radius: 50%;
+.language-logo {
+	background-color: #323232;
+	height: var(--nav-height);
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 
 /**黑色透明**/
@@ -151,13 +163,17 @@ form .btn {
 
 /* footer */
 footer {
-	position: fixed;
-	bottom: 20px;
+	width: 100%;
+	padding-top: 30px;
+	height: 150px;
 	font-size: 20px;
 	text-align: center;
-	left: 50%;
-	transform: translate(-50%, 0);
-	background-color: rgba(0, 0, 0, .5);
+	background-color: rgb(51, 51, 51);
+	color: white;
+}
+	
+footer img {
+	height: 50px;
 }
 
 /* responsive design */
@@ -178,22 +194,38 @@ footer {
 	.h2 {
 		font-size: 48px;
 	}
+
+	footer {
+		padding-top: 50px;
+		height: 200px;
+	}
 	
+	footer img {
+		height: 70px;
+	}
+
 	.section:first-child .container {
 		padding-top: 190px;
 	}
+
+	.pigeon-logo > img {
+		width: 200px;
+	}
 }
 
-#main {
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	position: relative;
-	overflow-x: hidden;
+
+@media (min-height: 400px) {
+	#main > .navbar {
+		--nav-height: 50px;
+	}
 }
 
-/* scrollbar */
-::-webkit-scrollbar {
-	display: none;
+a {
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	text-shadow: 0 0 3px gray;
+	color: initial;
 }
