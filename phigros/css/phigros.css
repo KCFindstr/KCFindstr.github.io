@@ -12,7 +12,6 @@
 	background-position: center center;
 	background-size: cover;
 	background-color: black;
-	padding-top: 30px;
 	color: white;
 	font-size: 1rem;
 	text-align: center;
@@ -21,16 +20,31 @@
 	text-shadow: 0 0 3px black;
 }
 
-.bg1 {
-	width: 100%;
-	height: auto;
-	top: 0;
-	left: 0;
-	position: absolute;
-}
-
 .section p {
 	text-indent: 4ch;
+}
+
+.section-1a {
+	background: url(../img/bg1_T.png) no-repeat right center;
+	background-size: cover;
+	height: calc(100% - 150px);
+	position: relative;
+}
+.section-1a .bg1 {
+	width: 40vw;
+	position: absolute;
+	bottom: 8vh;
+	left: 10vw;
+}
+.section-1a .bg2 {
+	width: 30vw;
+	position: absolute;
+	bottom: 3vh;
+	left: 48vw;
+}
+.section-1b {
+	background-color: rgb(102, 102, 102);
+	height: 150px;
 }
 
 .section-2 {
@@ -40,6 +54,7 @@
 .section-2 p {
 	display: inline-block;
 	text-align: left;
+	width: 80%;
 }
 
 .section-2 img {
@@ -49,7 +64,6 @@
 
 .section-2 {
 	display: block;
-	width: 80%;
 	float: right;
 	text-align: left;
 }
@@ -78,7 +92,7 @@
 	background-image: url(../img/bg6.png);
 }
 .section-5a {
-	height: 100vh;
+	height: calc(100vh - 50px);
 	position: relative;
 }
 .section-5a > img {
@@ -99,6 +113,7 @@
 }
 .store-list img {
 	width: 100px;
+	margin-top: auto;
 }
 
 /* control arrow */
@@ -135,7 +150,7 @@
 	}
 
 	.section-2 p {
-		width: 55vw;
+		width: 80%;
 	}
 
 	.section-5a > img {
