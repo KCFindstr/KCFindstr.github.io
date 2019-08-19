@@ -177,6 +177,10 @@ h1 {
 	h1 {
 		font-size: 72px;
 	}
+
+	.describe {
+		font-size: 28px;
+	}
 	
 	.item-1 {
 		font-size: 32px;

@@ -24,12 +24,12 @@
 	text-indent: 4ch;
 }
 
-.section-1a {
-	height: 100%;
+.section-1 {
 	background: url(../img/bg1_T.png) no-repeat right center;
 	background-size: cover;
 	position: relative;
 }
+
 .section-1 .bg1 {
 	width: 40vw;
 	position: absolute;
