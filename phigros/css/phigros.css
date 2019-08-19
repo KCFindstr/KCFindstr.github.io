@@ -25,26 +25,29 @@
 }
 
 .section-1a {
+	padding-top: 50px;
+	height: 100%;
 	background: url(../img/bg1_T.png) no-repeat right center;
 	background-size: cover;
-	height: calc(100% - 150px);
 	position: relative;
 }
-.section-1a .bg1 {
+.section-1 .bg1 {
 	width: 40vw;
 	position: absolute;
-	bottom: 8vh;
-	left: 10vw;
+	bottom: 20vh;
+	left: 12vw;
 }
-.section-1a .bg2 {
+.section-1 .bg2 {
 	width: 30vw;
 	position: absolute;
-	bottom: 3vh;
-	left: 48vw;
+	bottom: 15vh;
+	left: 50vw;
 }
-.section-1b {
-	background-color: rgb(102, 102, 102);
-	height: 150px;
+.section-1 .store-list {
+	position: absolute;
+	bottom: 30px;
+	left: 0px;
+	width: 100%;
 }
 
 .section-2 {
@@ -98,7 +101,7 @@
 .section-5a > img {
 	height: auto;
 	width: 90vw;
-	margin: 40vh auto auto auto;
+	margin: 30vh auto auto auto;
 }
 .sec-footer {
 	text-align: center;
@@ -111,8 +114,12 @@
 	margin-left: 10px;
 	width: 150px;
 }
+.store-list a {
+	display: block;
+	text-align: center;
+}
 .store-list img {
-	width: 100px;
+	width: 200px;
 	margin-top: auto;
 }
 
@@ -157,7 +164,7 @@
 		width: 60vw;
 	}
 
-	.store-list img {
-		width: 150px;
+	.store-list a {
+		display: inline-block;
 	}
 }
