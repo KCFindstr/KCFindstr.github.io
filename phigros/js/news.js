@@ -41,11 +41,9 @@ async function updateNewsOnScroll(force) {
 	if (vdata.loaderState != LoaderStates.READY && !force) {
 		return;
 	}
-	let position = document.documentElement.scrollTop + window.innerHeight;
-	let el = document.getElementById('loader');
-	let rect = el.getBoundingClientRect();
-	let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-	let bottom = rect.height + rect.top + scrollTop;
+	let el = $('#loader');
+	let position = $(window).scrollTop() + $(window).height();
+	let bottom = el.offset().top + el.outerHeight(true);
 	if (position >= bottom + 50 || force) {
 		// trigger scroll
 		vdata.loaderState = LoaderStates.LOADING;
