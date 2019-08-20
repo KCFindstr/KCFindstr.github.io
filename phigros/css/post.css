@@ -1,17 +1,19 @@
-.post-title {
-	background-color: rgba(255, 255, 255, 0.3);
-	border-bottom: 1px solid white;
-	padding: 10px;
-	margin: -10px -10px 10px -10px;
-	border-radius: 10px 10px 0 0;
+.cont-title {
+	position: relative;
+	text-align: center;
+	font-size: 36px;
+	color: black;
 }
 
-.post-time {
-	border-left: 5px solid skyblue;
-	padding-left: 5px;
+.cont-date {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-size: 18px;
+	color: var(--pink-color);
 }
 
-.post-control {
-	display: inline-block;
-	margin-left: 10px;
+.cont {
+	background-color: var(--lightgray-color);
+	min-height: 480px;
 }

@@ -97,6 +97,7 @@
 }
 
 h1 {
+	font-family: 'CaviarDreams';
 	font-size: 8.5vw;
 }
 	
@@ -113,31 +114,6 @@ h1 {
 
 .describe {
 	font-size: 4.5vw;
-}
-
-/* gallery */
-.carousel-indicators {
-	margin: 0;
-}
-
-.carousel-indicators > li {
-	height: 5px;
-	width: 50px;
-	cursor: pointer;
-	background-color: white;
-	opacity: .8;
-	margin: auto 5px;
-}
-
-.carousel-inner img {
-	width: auto;
-	height: auto;
-	max-width: 100%;
-	max-height: 100%;
-}
-
-.carousel-indicators .active {
-	background-color: #207dcb;
 }
 
 /* responsive design */

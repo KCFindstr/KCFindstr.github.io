@@ -28,25 +28,40 @@
 	<meta name="csrf-token" content="3Bs5b32sJXgr7Kslc6wUBYfnWIjMEZEwhIbVgQMH">
 	<!-- icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="icon/pigeon-logo.png">
-	<title>Pigeon Games | Home</title>
+	<title>Pigeon Games | Phigros</title>
 	<!-- jquery -->
 	<script src="https://code.jquery.com/jquery-3.4.0.min.js"
 		integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
-	<!-- bootstrap -->
-	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
-	<script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
-	<script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- bootstrap js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<!-- fullpage js -->
+	<script src="js/lib/jquery.fullpage.min.js"></script>
+	<script src="js/lib/fullpage.scrolloverflow.js"></script>
+	<link rel="stylesheet" href="css/jquery.fullpage.min.css">
 	<!-- moment js -->
 	<script src="js/lib/moment.min.js"></script>
 	<!-- icons -->
 	<script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
 	<!-- animate.css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<!-- vuejs development version -->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
 	<!-- stylesheet -->
 	<link media="all" type="text/css" rel="stylesheet" href="css/common.css">
-	<link media="all" type="text/css" rel="stylesheet" href="css/index.css">
+	<link media="all" type="text/css" rel="stylesheet" href="css/news.css">
+	<link media="all" type="text/css" rel="stylesheet" href="css/loader.css">
 	<!-- script -->
 	<script src="js/common.js"></script>
+	<script src="js/news.js"></script>
 
 </head>
 
@@ -57,7 +72,7 @@
 		<div class="container px-0">
 			<!-- LOGO -->
 			<a href="index.html" class="pigeon-logo mr-md-5 px-3">
-				<img src="img/LOGO.png"/>
+				<img src="img/LOGO.png" />
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 				<span class="navbar-toggler-icon"></span>
@@ -72,7 +87,7 @@
 						</div>
 					</li>
 					<li class="nav-item mr-md-5">
-						<a class="nav-link" href="news.html">动态</a>
+						<a class="nav-link" href="#">动态</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">关于鸽游</a>
@@ -94,72 +109,71 @@
 		</div>
 	</nav>
 
-	<!--  -->
-	<div class="section1">
-		<img id="character-bg" src="img/character_shadow.png"/>
-		<img id="character" src="img/character.png"/>
-		<div class="introduction container">
-			<h1>Pigeon Games</h1>
-			<p class="describe dropdown-toggle" href="#">了解我们的全新项目</p>
-		</div>
-	</div>
-
-	<!-- -->
-	<div class="container">
+	<div class="container" id="vue-app">
 		<div class="row mt-4">
-			<!-- 立刻进入，Phigros的世界吧 -->
-			<div class="col-12 col-md-4 item-1">
-				<p>立刻进入<br/>Phigros的世界吧！</p>
-			</div>
-			<!-- 轮播图 -->
-			<div class="col-12 col-md-8 px-0">
-				<div class="end">
-					<div id="screen" class="carousel slide" data-ride="carousel">
-						<ul class="carousel-indicators">
-							<li data-target="#screen" data-slide-to="0" class="active"></li>
-							<li data-target="#screen" data-slide-to="1"></li>
-							<li data-target="#screen" data-slide-to="2"></li>
-						</ul>
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<a href="phigros.html" target="_blank"><img src="img/Phigros.png"></a>
-							</div>
-							<div class="carousel-item">
-								<a href="phigros.html" target="_blank"><img src="img/Phigros.png"></a>
-							</div>
-							<div class="carousel-item">
-								<a href="phigros.html" target="_blank"><img src="img/Phigros.png"></a>
-							</div>
+			<div class="col-12 px-0">
+				<!-- carousel images -->
+				<div id="screen" class="carousel slide" data-ride="carousel">
+					<ul class="carousel-indicators">
+						<li data-target="#screen" data-slide-to="0" class="active"></li>
+						<li data-target="#screen" data-slide-to="1"></li>
+						<li data-target="#screen" data-slide-to="2"></li>
+					</ul>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<a href="phigros.html" target="_blank"><img src="img/Phigros.png"></a>
+						</div>
+						<div class="carousel-item">
+							<a href="phigros.html" target="_blank"><img src="img/Phigros.png"></a>
+						</div>
+						<div class="carousel-item">
+							<a href="phigros.html" target="_blank"><img src="img/Phigros.png"></a>
 						</div>
 					</div>
 				</div>
+				<!-- news list -->
+				<h1 class="subtitle mt-3">
+					关注鸽游动态！
+				</h1>
 			</div>
-		</div>
-		<div class="row mt-2">
-			<!--  -->
-			<div class="col-12 col-md-4 item-3 mt-4 mb-3">
+			<div v-for="news in contents" class="news-item pl-md-5 pr-0 mt-3 col-12 d-flex justify-content-between flex-column flex-md-row">
+				<div class="news-desc pl-3 pl-md-0 pt-3 order-2 order-md-1">
+					<a class="news-title" :href="'news_' + news.id + '.html'" target="_blank">
+						{{ news.title }}
+					</a>
+					<div class="news-content mt-2">
+						{{ news.abstract }}
+					</div>
+					<div class="news-date">
+						{{ news.date }}
+					</div>
+				</div>
+				<a class="order-1 order-md-2" :href="'news_' + news.id + '.html'" target="_blank">
+					<img class="news-img" :src="news.image">
+				</a>
 			</div>
-			<!-- 最新动态 -->
-			<div class="col-12 col-md-8 item-4 px-0 pl-md-3">
-				<p>最新动态</p>
-				<div class="news-img"></div>
-				<div class="background-white"></div>
-				<!-- -->
-				<div class="content"></div>
-
-				<!-- 关注 -->
-				<div class="mt-2 item-5 follow">
-					<p class="follow-font">
-						关注鸽游<img class="font-img" src="img/right.png">
-					</p>
-					<a href="https://space.bilibili.com/15859169" class="pl-md-2" target="_blank"><img src="img/BILI.png"></a>
-					<a href="https://jq.qq.com/?_wv=1027&k=5hyOBQa" class="pl-md-2" target="_blank"><img src="img/QQ.png"></a>
-					<a href="https://www.taptap.com/app/165287" class="pl-md-2" target="_blank"><img src="img/TAP.png"></a>
-					<a href="https://weibo.com/u/7119316944" class="pl-md-2" target="_blank"><img src="img/WB.png"></a>
+			<div class="loader col-12 py-5 text-center" id="loader">
+				<div v-if="loaderState === LoaderStates.READY">
+					<ion-icon name="arrow-down"></ion-icon><br/>
+					下拉以加载更多
+				</div>
+				<div v-else-if="loaderState === LoaderStates.LOADING">
+					<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div><br/>
+					加载中
+				</div>
+				<div v-else-if="loaderState === LoaderStates.FULL">
+					<ion-icon name="checkmark-circle-outline"></ion-icon><br/>
+					没有更多内容了
+				</div>
+				<div v-else-if="loaderState === LoaderStates.FAILED">
+					<ion-icon name="close-circle-outline"></ion-icon><br/>
+					加载失败，请刷新页面重试
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<!-- footer -->
 
 	<!-- footer -->
 	<footer>
