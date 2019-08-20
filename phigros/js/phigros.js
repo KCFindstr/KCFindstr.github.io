@@ -1,4 +1,10 @@
 $(document).ready(() => {
+	if (window.innerHeight > window.innerWidth) {
+    $('.landscape').remove();
+	} else {
+    $('.portrait').remove();
+	}
+
 	$('#fullpage').fullpage({
 		scrollOverflow: true,
 		paddingTop: '50px'
