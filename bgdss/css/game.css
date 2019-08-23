@@ -1,0 +1,14 @@
+#game-main {
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	overflow: hidden;
+}
+
+#game-main canvas {
+	box-shadow: 0 0 5px white;
+}
+
+body {
+	background-color: black;
+}
