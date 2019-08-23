@@ -3,6 +3,7 @@
 	width: 100%;
 	background-color: black;
 	overflow: hidden;
+	touch-action: none;
 }
 
 #game-main canvas {
