@@ -10,6 +10,11 @@
 	box-shadow: 0 0 5px white;
 }
 
+html, body {
+  overflow-x: hidden;
+	touch-action: none;
+}
 body {
+  position: relative;
 	background-color: black;
 }
