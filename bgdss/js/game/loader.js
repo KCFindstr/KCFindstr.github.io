@@ -1,6 +1,7 @@
 import config from './config.js';
 import gameScene from './scene.js';
 import coverScene from './cover.js';
+import scoreScene from './scoreboard.js';
 import game from './index.js';
 
 let audioLoaded = 0;
@@ -140,6 +141,7 @@ export default {
 		// scenes
 		this.scene.add('s_game', gameScene);
 		this.scene.add('s_cover', coverScene);
+		this.scene.add('s_score', scoreScene);
 	},
 	create: function () {
 		let sheetSet = [

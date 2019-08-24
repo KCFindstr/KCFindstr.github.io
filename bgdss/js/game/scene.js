@@ -28,6 +28,15 @@ export default {
 		game.bgm = game.sound['bgm'];
 	},
 	update: function() {
+		if (game.trackManager.finish) {
+			let time = game.scene.time.now - game.trackManager.finish;
+			if (time >= 3000) {
+				game.bgm.stop();
+				game.sound['se_tap'].stop();
+				game.scene.scene.start('s_score');
+				return;
+			}
+		}
 		game.trackManager.updateVisibleNotes();
 		game.scoreManager.update();
 	}

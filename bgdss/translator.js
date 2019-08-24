@@ -3,6 +3,15 @@ let content = fs.readFileSync('chart.json', 'utf8');
 let chart = JSON.parse(content);
 let output = { meta: {}, notes: [], bpm: [] };
 let id = 0;
+
+function convert(time) {
+	return time[0] + time[1] / time[2];
+}
+
+function equal(t1, t2) {
+	return Math.abs(convert(t1) - convert(t2)) <= 1e-3;
+}
+
 for (let note of chart.note) {
 	if (note.sound) {
 		output.offset = note.offset;
@@ -14,16 +23,38 @@ for (let note of chart.note) {
 		type: 0,
 		time: note.beat
 	}
-	newnote.time[0]++;
 	if (note.endbeat) {
-		newnote.type = 2;
-		newnote.endtime = note.endbeat;
-		newnote.endtime[0]++;
-		newnote.endtrack = newnote.track;
-		newnote.headtype = 0;
-		newnote.tailtype = 0;
+		let duration = convert(note.endbeat) - convert(note.beat);
+		if (duration <= 0.2) {
+			newnote.type = 1;
+		} else {
+			newnote.type = 2;
+			newnote.endtime = note.endbeat;
+			newnote.endtime[0]++;
+			newnote.endtrack = newnote.track;
+			newnote.headtype = 0;
+			newnote.tailtype = 0; 
+		}
 	}
+	newnote.time[0]++;
 	output.notes.push(newnote);
+}
+
+for (let note of output.notes) {
+	for (let nxt of output.notes) {
+		if (note.type != 2 || nxt.type != 2 || note.next || nxt.prev)
+			continue;
+		if (equal(note.endtime, nxt.time)) {
+			if (note.track <= 3 && nxt.track <= 3 ||
+				note.track >= 3 && nxt.track >= 3) {
+				note.tailtype = 2;
+				nxt.headtype = 2;
+				note.endtrack = nxt.track;
+				note.next = nxt.id;
+				nxt.prev = note.id;
+			}
+		}
+	}
 }
 
 for (let bpm of chart.time) {
