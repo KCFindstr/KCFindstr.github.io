@@ -127,7 +127,6 @@ class TrackManager {
 			}
 			let result = this.scene.time.now - this.target;
 			if (result >= 0) {
-				console.log('play bgm');
 				game.bgm.play();
 				game.bgm.once('end', () => {
 					this.finish = this.scene.time.now;
@@ -146,7 +145,7 @@ class TrackManager {
 
 	updateVisibleNotes() {
 		let currentTime = this.getPlayingPosition();
-		console.log('update', currentTime);
+		// console.log('update', currentTime);
 		let notes = game.chart.notes;
 		let newnotes = [];
 		// Add new notes
