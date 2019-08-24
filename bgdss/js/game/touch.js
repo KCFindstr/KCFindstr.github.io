@@ -24,7 +24,7 @@ let pointerDownListener = function(pointer) {
 	if (tojudge) {
 		tojudge.judge(currrentTime, pointer);
 	} else {
-		game.scene.sound.add('se_touch').play();
+		game.scene.sound.play('se_touch');
 	}
 }
 

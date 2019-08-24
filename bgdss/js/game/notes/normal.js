@@ -15,7 +15,7 @@ let realjudge = function(time, pointer) {
 	} else {
 		game.trackManager.playAnimationOnTrack(this.note.track, 'a_normal');
 		if (result <= config.JUDGE.GOOD) {
-			game.scene.sound.add('se_judge' + result).play();
+			game.scene.sound.play('se_judge' + result);
 		}
 	}
 	game.scoreManager.judge(result);

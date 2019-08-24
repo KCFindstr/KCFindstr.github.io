@@ -37,7 +37,7 @@ let headjudge = function(result) {
 	}
 	if (result <= config.JUDGE.GOOD) {
 		// good result, play se
-		game.scene.sound.add('se_judge' + result).play();
+		game.scene.sound.play('se_judge' + result);
 	}
 	this.head.judged = true;
 	if (judgeSuccess) {
@@ -59,9 +59,9 @@ let tailjudge = function(result) {
 	}
 	if (result <= config.JUDGE.GOOD) {
 		if (note.tailtype == config.NOTE.FLICK) {
-			game.scene.sound.add('se_flick').play();
+			game.scene.sound.play('se_flick');
 		} else if (note.tailtype == config.NOTE.NORMAL) {
-			game.scene.sound.add('se_judge' + result).play();
+			game.scene.sound.play('se_judge' + result);
 		}
 	}
 	if (result == config.JUDGE.MISS || note.tailtype != config.NOTE.SLIDE) {
