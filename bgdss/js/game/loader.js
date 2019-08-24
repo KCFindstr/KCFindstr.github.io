@@ -28,7 +28,7 @@ export default {
 			['se_judge0', `se/${config.noteStyle.se}/perfect.wav`],
 			['se_judge1', `se/${config.noteStyle.se}/great.wav`],
 			['se_judge2', `se/${config.noteStyle.se}/good.wav`],
-			['bgm', `audio/${config.songId}/song.mp3`],
+			['bgm', `audio/${config.songId}/song.mp3`, true],
 		];
 		audioCount = audioSet.length;
 		// show progress bar
@@ -120,11 +120,8 @@ export default {
 			let sound = new Howl({
 				src: desc[1],
 				preload: true,
+				html5: desc[2],
 				onload: () => audioLoaded++,
-				onloaderror: (args) => {
-					console.log(desc);
-					console.log(args);
-				}
 			});
 			game.sound[desc[0]] = sound;
 		}
