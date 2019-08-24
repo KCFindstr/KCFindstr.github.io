@@ -1,6 +1,7 @@
 import config from './config.js';
 import gameScene from './scene.js';
 import coverScene from './cover.js';
+import game from './index.js';
 
 export default {
 	preload: function () {
@@ -16,8 +17,20 @@ export default {
 		};
 		let text = this.add.text(config.width/2, config.height/2 - 50, 'LOADING... 0%', style);
 		text.setOrigin(0.5, 0.5);
+		// Audio progress
+		let audioLoaded = 0;
+		let audioSet = [
+			['se_flick', `se/${config.noteStyle.se}/flick.wav`],
+			['se_tap', `se/${config.noteStyle.se}/tap.wav`],
+			['se_touch', `se/${config.noteStyle.se}/touch.wav`],
+			['se_judge0', `se/${config.noteStyle.se}/perfect.wav`],
+			['se_judge1', `se/${config.noteStyle.se}/great.wav`],
+			['se_judge2', `se/${config.noteStyle.se}/good.wav`],
+			['bgm', `audio/${config.songId}/song.ogg`],
+		];
 		// show progress bar
 		this.load.on('progress', function (progress) {
+			progress = progress * 0.6 + audioLoaded / audioSet.length * 0.4;
 			loadSprite.setSize((config.width - 200) * progress, 20);
 			loadSprite.setOrigin(0.5, 0.5);
 			if (progress < 100)
@@ -91,15 +104,6 @@ export default {
 			}],
 		];
 
-		let audioSet = [
-			['se_flick', `se/${config.noteStyle.se}/flick.wav`],
-			['se_tap', `se/${config.noteStyle.se}/tap.wav`],
-			['se_touch', `se/${config.noteStyle.se}/touch.wav`],
-			['se_judge0', `se/${config.noteStyle.se}/perfect.wav`],
-			['se_judge1', `se/${config.noteStyle.se}/great.wav`],
-			['se_judge2', `se/${config.noteStyle.se}/good.wav`],
-			['bgm', `audio/${config.songId}/song.ogg`],
-		];
 		// images
 		for (let desc of imageSet) {
 			this.load.image(...desc);
@@ -110,7 +114,11 @@ export default {
 		}
 		// audio
 		for (let desc of audioSet) {
-			this.load.audio(...desc);
+			let sound = new Howl({
+				src: desc[1]
+			});
+			game.sound[desc[0]] = sound;
+			sound.onload = () => audioLoaded++;
 		}
 		// bitmap font
 		this.load.bitmapFont('f_large', 'img/game/font_large_0.png', 'img/game/font_large.fnt');

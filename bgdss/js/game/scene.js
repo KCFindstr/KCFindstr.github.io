@@ -14,7 +14,8 @@ export default {
 		chartLoader(game.chart);
 		game.chart.range = config.MAXRANGE / config.speed;
 		// tap sound
-		game.tapse = game.scene.sound.add('se_tap');
+		game.tapse = game.sound['se_tap'].play();
+		game.sound['se_tap'].stop(game.tapse);
 		// Track Manager
 		game.trackManager = new TrackManager(this);
 		// Touch Manager
@@ -24,7 +25,7 @@ export default {
 	},
 	create: function() {
 		bgcreate.apply(this);
-		game.bgm = this.sound.add('bgm');
+		game.bgm = game.sound['bgm'];
 	},
 	update: function() {
 		game.trackManager.updateVisibleNotes();

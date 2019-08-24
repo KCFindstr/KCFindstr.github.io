@@ -128,7 +128,7 @@ class TrackManager {
 			let result = this.scene.time.now - this.target;
 			if (result >= 0) {
 				game.bgm.play();
-				game.bgm.once('complete', () => {
+				game.bgm.once('end', () => {
 					this.finish = this.scene.time.now;
 				});
 				this.hasStarted = true;
@@ -137,9 +137,9 @@ class TrackManager {
 			return Math.round(result);
 		} else {
 			if (this.finish != undefined)
-				return Math.round(game.bgm.duration * 1000 + this.scene.time.now - this.finish);
+				return Math.round(game.bgm.duration() * 1000 + this.scene.time.now - this.finish);
 			else
-				return Math.round(game.bgm.seek * 1000);
+				return Math.round(game.bgm.seek() * 1000);
 		}
 	}
 

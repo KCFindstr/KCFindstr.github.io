@@ -30,7 +30,7 @@ let startjudge = function(result) {
 		game.trackManager.playAnimationOnTrack(this.note.track, 'a_flick');
 	}
 	if (result <= config.JUDGE.GOOD) {
-		game.scene.sound.play('se_flick');
+		game.sound['se_flick'].play();
 	}
 	game.scoreManager.judge(result);
 	this.children.destroy();

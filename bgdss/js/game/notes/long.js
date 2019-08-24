@@ -37,12 +37,12 @@ let headjudge = function(result) {
 	}
 	if (result <= config.JUDGE.GOOD) {
 		// good result, play se
-		game.scene.sound.play('se_judge' + result);
+		game.sound['se_judge' + result].play();
 	}
 	this.head.judged = true;
 	if (judgeSuccess) {
 		// normal note, or successful slide
-		game.tapse.play();
+		game.sound['se_tap'].play(game.tapse);
 		game.scoreManager.judge(result);
 	}
 }
@@ -59,13 +59,13 @@ let tailjudge = function(result) {
 	}
 	if (result <= config.JUDGE.GOOD) {
 		if (note.tailtype == config.NOTE.FLICK) {
-			game.scene.sound.play('se_flick');
+			game.sound['se_flick'].play();
 		} else if (note.tailtype == config.NOTE.NORMAL) {
-			game.scene.sound.play('se_judge' + result);
+			game.sound['se_judge' + result].play();
 		}
 	}
 	if (result == config.JUDGE.MISS || note.tailtype != config.NOTE.SLIDE) {
-		game.tapse.stop();
+		game.sound['se_tap'].stop();
 		game.scoreManager.judge(result);
 		if (this.judged) {
 			game.touchManager.release(this.judged.id);

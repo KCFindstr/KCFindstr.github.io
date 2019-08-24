@@ -1,5 +1,6 @@
 export default {
 	touchManager: null,
 	scoreManager: null,
-	trackManager: null
+	trackManager: null,
+	sound: {}
 };
