@@ -28,7 +28,7 @@ export default {
 			['se_judge0', `se/${config.noteStyle.se}/perfect.wav`],
 			['se_judge1', `se/${config.noteStyle.se}/great.wav`],
 			['se_judge2', `se/${config.noteStyle.se}/good.wav`],
-			['bgm', `audio/${config.songId}/song.ogg`],
+			['bgm', `audio/${config.songId}/song.mp3`],
 		];
 		audioCount = audioSet.length;
 		// show progress bar
