@@ -146,6 +146,7 @@ class TrackManager {
 
 	updateVisibleNotes() {
 		let currentTime = this.getPlayingPosition();
+		console.log('update', currentTime);
 		let notes = game.chart.notes;
 		let newnotes = [];
 		// Add new notes
