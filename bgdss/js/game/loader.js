@@ -118,10 +118,10 @@ export default {
 		// audio
 		for (let desc of audioSet) {
 			let sound = new Howl({
-				src: desc[1]
+				src: desc[1],
+				onload: () => audioLoaded++
 			});
 			game.sound[desc[0]] = sound;
-			sound.onload = () => audioLoaded++;
 		}
 		// bitmap font
 		this.load.bitmapFont('f_large', 'img/game/font_large_0.png', 'img/game/font_large.fnt');
