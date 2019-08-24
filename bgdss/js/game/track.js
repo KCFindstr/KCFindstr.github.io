@@ -63,7 +63,7 @@ class TrackManager {
 		if (pos == 0) {
 			let ret = this.trackPosition[trackid];
 			if (ret != undefined)
-				return ret;
+				return Object.assign({}, ret);
 		}
 		let track = game.bglane;
 		let width = track.displayWidth;

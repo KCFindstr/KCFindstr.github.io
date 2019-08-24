@@ -40,22 +40,35 @@ for (let note of chart.note) {
 	output.notes.push(newnote);
 }
 
+let notesToRemove = {};
 for (let note of output.notes) {
+	if (note.type != 2 || note.next)
+		continue;
 	for (let nxt of output.notes) {
-		if (note.type != 2 || nxt.type != 2 || note.next || nxt.prev)
+		if (nxt.prev)
 			continue;
 		if (equal(note.endtime, nxt.time)) {
-			if (note.track <= 3 && nxt.track <= 3 ||
-				note.track >= 3 && nxt.track >= 3) {
-				note.tailtype = 2;
-				nxt.headtype = 2;
+			if (nxt.type == 2) {
+				if (note.track <= 3 && nxt.track <= 3 ||
+					note.track >= 3 && nxt.track >= 3) {
+					note.tailtype = 2;
+					nxt.headtype = 2;
+					note.endtrack = nxt.track;
+					note.next = nxt.id;
+					nxt.prev = note.id;
+					break;
+				}
+			} else if (Math.abs(note.track - nxt.track) <= 1) {
 				note.endtrack = nxt.track;
-				note.next = nxt.id;
-				nxt.prev = note.id;
+				note.tailtype = nxt.type;
+				notesToRemove[nxt.id] = true;
+				break;
 			}
 		}
 	}
 }
+
+output.notes = output.notes.filter((note) => { return !notesToRemove[note.id]; });
 
 for (let bpm of chart.time) {
 	let newbpm = {
