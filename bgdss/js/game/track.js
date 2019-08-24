@@ -106,8 +106,14 @@ class TrackManager {
 		}
 		let pos = this.getTrackPositionByY(0, y);
 		let w = pos.x2 - pos.x1;
-		for (let i=0; i<7; i++) {
+		pos.x1 -= w;
+		pos.x2 -= w;
+		for (let i=-1; i<=7; i++) {
 			if (x >= pos.x1 && x < pos.x2) {
+				if (i == -1)
+					return 0;
+				if (i == 7)
+					return 6;
 				return i;
 			}
 			pos.x1 += w;
