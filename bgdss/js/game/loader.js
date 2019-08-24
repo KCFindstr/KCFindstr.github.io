@@ -121,7 +121,10 @@ export default {
 				src: desc[1],
 				preload: true,
 				onload: () => audioLoaded++,
-				onloaderror: console.log
+				onloaderror: (args) => {
+					console.log(desc);
+					console.log(args);
+				}
 			});
 			game.sound[desc[0]] = sound;
 		}
