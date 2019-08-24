@@ -12,6 +12,9 @@ export default {
 		});
 		newButton(this, config.centerX, config.centerY, 400, 100, 'Fullscreen', () => {
 			this.scale.startFullscreen();
+			if (screenfull.enabled) {
+				screenfull.request();
+			}
 		});
 		newButton(this, config.centerX, config.centerY + 120, 400, 100, 'Auto', () => {
 			config.auto = true;

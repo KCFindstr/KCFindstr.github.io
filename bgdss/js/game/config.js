@@ -1,7 +1,7 @@
 import loader from './loader.js';
 
 let obj = {
-	liveId: 2,
+	liveId: 1,
 	songId: 1,
 	auto: false,
 	parent: 'game-main',

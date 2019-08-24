@@ -62,8 +62,9 @@ let updateDisplay = function (time, start, end) {
 		} else {
 			if (pointer.getDistance() >= config.flickDistance) {
 				this.startjudge(this.judgeresult);
+				game.touchManager.release(pointer.id);
 			}
-			if (pointer.getDuration() > judgewait) {
+			else if (pointer.getDuration() > judgewait) {
 				this.startjudge(config.JUDGE.MISS);
 			}
 		}
@@ -83,12 +84,15 @@ let updateDisplay = function (time, start, end) {
 let updateTop = function(time, start) {
 	let w = start.x2 - start.x1;
 	let scale = w / this.width * config.noteStyle.scale;
-	this.setScale(scale);
+	this.setScale(scale * 0.9);
 	if (start.y - this.displayHeight > config.height) {
 		start.y = config.height + this.displayHeight;
 	}
 	this.setPosition(start.x1 + w / 2, start.y - this.dDy);
-	this.dDy = (this.dDy + 1) % 30;
+	this.dDy = (this.dDy + 0.5);
+	if (this.dDy > 15) {
+		this.dDy = 0;
+	}
 }
 
 export default function (scene, note) {

@@ -66,4 +66,6 @@ export default function (chart) {
 	for (let note of notes) {
 		assginPoolId(note, notemap);
 	}
+
+	notes.sort((a, b) => a.time - b.time);
 }
