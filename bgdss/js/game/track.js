@@ -127,6 +127,7 @@ class TrackManager {
 			}
 			let result = this.scene.time.now - this.target;
 			if (result >= 0) {
+				console.log('play bgm');
 				game.bgm.play();
 				game.bgm.once('end', () => {
 					this.finish = this.scene.time.now;
