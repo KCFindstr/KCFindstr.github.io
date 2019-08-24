@@ -3,6 +3,9 @@ import gameScene from './scene.js';
 import coverScene from './cover.js';
 import game from './index.js';
 
+let audioLoaded = 0;
+let audioCount = 0;
+
 export default {
 	preload: function () {
 		// progress bars
@@ -18,7 +21,6 @@ export default {
 		let text = this.add.text(config.width/2, config.height/2 - 50, 'LOADING... 0%', style);
 		text.setOrigin(0.5, 0.5);
 		// Audio progress
-		let audioLoaded = 0;
 		let audioSet = [
 			['se_flick', `se/${config.noteStyle.se}/flick.wav`],
 			['se_tap', `se/${config.noteStyle.se}/tap.wav`],
@@ -28,9 +30,10 @@ export default {
 			['se_judge2', `se/${config.noteStyle.se}/good.wav`],
 			['bgm', `audio/${config.songId}/song.ogg`],
 		];
+		audioCount = audioSet.length;
 		// show progress bar
 		this.load.on('progress', function (progress) {
-			progress = progress * 0.6 + audioLoaded / audioSet.length * 0.4;
+			progress = progress * 0.6 + audioLoaded / audioCount * 0.4;
 			loadSprite.setSize((config.width - 200) * progress, 20);
 			loadSprite.setOrigin(0.5, 0.5);
 			if (progress < 100)
@@ -150,6 +153,10 @@ export default {
 				repeat: desc[2]
 			});
 		}
-		this.scene.start('s_cover');
+	},
+	update: function () {
+		if (audioLoaded == audioCount) {
+			this.scene.start('s_cover');
+		}
 	}
 };
