@@ -120,7 +120,8 @@ export default {
 			let sound = new Howl({
 				src: desc[1],
 				preload: true,
-				onload: () => audioLoaded++
+				onload: () => audioLoaded++,
+				onloaderror: console.log
 			});
 			game.sound[desc[0]] = sound;
 		}
