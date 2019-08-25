@@ -11,6 +11,7 @@ class ScoreManager {
 	constructor(scene) {
 		this.scene = scene;
 		this.combo = 0;
+		this.maxcombo = 0;
 		this.combotext = scene.add.sprite(0, 66, 'combo');
 		this.combotext.setOrigin(0.5, 0);
 		this.combonum = scene.add.bitmapText(0, 0, 'f_large', '0');
@@ -33,6 +34,7 @@ class ScoreManager {
 			this.combosprite.setScale(0);
 		} else {
 			this.combo++;
+			this.maxcombo = Math.max(this.maxcombo, this.combo);
 			this.combosprite.setScale(0.5);
 		}
 		this.combonum.setText(this.combo.toString());
