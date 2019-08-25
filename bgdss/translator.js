@@ -44,24 +44,33 @@ let notesToRemove = {};
 for (let note of output.notes) {
 	if (note.type != 2 || note.next)
 		continue;
+	let suc = false;
 	for (let nxt of output.notes) {
-		if (nxt.prev)
+		if (!equal(note.endtime, nxt.time))
 			continue;
-		if (equal(note.endtime, nxt.time)) {
-			if (nxt.type == 2) {
-				if (note.track <= 3 && nxt.track <= 3 ||
-					note.track >= 3 && nxt.track >= 3) {
-					note.tailtype = 2;
-					nxt.headtype = 2;
-					note.endtrack = nxt.track;
-					note.next = nxt.id;
-					nxt.prev = note.id;
-					break;
-				}
-			} else if (Math.abs(note.track - nxt.track) <= 1) {
+		if (nxt.type != 2 && !notesToRemove[nxt.id]) {
+			if (Math.abs(note.track - nxt.track) <= 1) {
 				note.endtrack = nxt.track;
 				note.tailtype = nxt.type;
 				notesToRemove[nxt.id] = true;
+				suc = true;
+				break;
+			}
+		}
+	}
+	if (suc) continue;
+		
+	for (let nxt of output.notes) {
+		if (nxt.prev || !equal(note.endtime, nxt.time))
+			continue;
+		if (nxt.type == 2) {
+			if (note.track <= 3 && nxt.track <= 3 ||
+				note.track >= 3 && nxt.track >= 3) {
+				note.tailtype = 2;
+				nxt.headtype = 2;
+				note.endtrack = nxt.track;
+				note.next = nxt.id;
+				nxt.prev = note.id;
 				break;
 			}
 		}

@@ -88,11 +88,8 @@ let updateTop = function(time, start) {
 	if (start.y - this.displayHeight > config.height) {
 		start.y = config.height + this.displayHeight;
 	}
-	this.setPosition(start.x1 + w / 2, start.y - this.dDy);
-	this.dDy = (this.dDy + 0.5);
-	if (this.dDy > 15) {
-		this.dDy = 0;
-	}
+	this.setPosition(start.x1 + w / 2, start.y - this.dDy * scale);
+	this.dDy = (this.dDy + 1) % 30;
 }
 
 export default function (scene, note) {
@@ -111,7 +108,7 @@ export default function (scene, note) {
 	sprite.children = scene.add.sprite(0, 0, 'flick_top');
 	sprite.children.updateTop = updateTop;
 	sprite.children.dDy = 0;
-	sprite.children.setDepth(10);
+	sprite.children.setDepth(11);
 	sprite.children.setOrigin(0.5, 0.8);
 	sprite.prejudge = prejudge;
 	sprite.judge = realjudge;

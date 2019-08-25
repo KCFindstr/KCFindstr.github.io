@@ -24,10 +24,10 @@ let obj = {
 		normal: 0,
 		se: 0,
 		line: 0,
-		scale: 1
+		scale: 1.5
 	},
 	flickDistance: 1,
-	speed: 10.5,
+	speed: 10,
 	NOTE: {
 		NORMAL: 0,
 		FLICK: 1,

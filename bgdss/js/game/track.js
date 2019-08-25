@@ -49,7 +49,7 @@ class TrackManager {
 		let start = this.trackPosition[trackid];
 		let w = start.x2 - start.x1;
 		let sprite = this.scene.add.sprite(start.x1 + w/2, start.y + 5, name);
-		let scale = 3 * w / sprite.width * config.noteStyle.scale;
+		let scale = 2.5 * w / sprite.width * config.noteStyle.scale;
 		sprite.setScale(scale);
 		sprite.setDepth(5);
 		sprite.setOrigin(0.5, 0.84);

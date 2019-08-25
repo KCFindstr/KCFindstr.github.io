@@ -23,13 +23,13 @@ export default {
 		text.setOrigin(0.5, 0.5);
 		// Audio progress
 		let audioSet = [
-			['se_flick', `se/${config.noteStyle.se}/flick.wav`],
-			['se_tap', `se/${config.noteStyle.se}/tap.wav`],
-			['se_touch', `se/${config.noteStyle.se}/touch.wav`],
-			['se_judge0', `se/${config.noteStyle.se}/perfect.wav`],
-			['se_judge1', `se/${config.noteStyle.se}/great.wav`],
-			['se_judge2', `se/${config.noteStyle.se}/good.wav`],
-			['bgm', `audio/${config.songId}/song.mp3`, true],
+			['se_flick', `se/${config.noteStyle.se}/flick.wav`, 0.6],
+			['se_tap', `se/${config.noteStyle.se}/tap.wav`, 1],
+			['se_touch', `se/${config.noteStyle.se}/touch.wav`, 0.6],
+			['se_judge0', `se/${config.noteStyle.se}/perfect.wav`, 0.6],
+			['se_judge1', `se/${config.noteStyle.se}/great.wav`, 0.6],
+			['se_judge2', `se/${config.noteStyle.se}/good.wav`, 0.6],
+			['bgm', `audio/${config.songId}/song.mp3`, 1, true],
 		];
 		audioCount = audioSet.length;
 		// show progress bar
@@ -96,15 +96,21 @@ export default {
 		let sheetSet = [
 			['a_hold', `img/long/${config.noteStyle.long}/slide.png`, {
 				frameWidth: 250,
-				frameHeight: 450
+				frameHeight: 450,
+				startFrame: 0,
+				endFrame: 119
 			}],
 			['a_normal', `img/normal/${config.noteStyle.normal}/normal.png`, {
 				frameWidth: 375,
-				frameHeight: 450
+				frameHeight: 450,
+				startFrame: 0,
+				endFrame: 48
 			}],
 			['a_flick', `img/flick/${config.noteStyle.flick}/flick.png`, {
 				frameWidth: 375,
-				frameHeight: 450
+				frameHeight: 450,
+				startFrame: 0,
+				endFrame: 34
 			}],
 		];
 
@@ -121,7 +127,8 @@ export default {
 			let sound = new Howl({
 				src: desc[1],
 				preload: true,
-				html5: desc[2],
+				volume: desc[2],
+				html5: desc[3],
 				onload: () => audioLoaded++,
 			});
 			game.sound[desc[0]] = sound;
